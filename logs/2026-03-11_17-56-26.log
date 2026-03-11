@@ -1,0 +1,810 @@
+2026-03-11 17:56:26.950 | INFO     | __main__:17 | === Starting position check ===
+2026-03-11 17:56:26.950 | INFO     | __main__:19 | Connecting to Google Sheets
+2026-03-11 17:56:28.234 | DEBUG    | services.positions_sheet:10 | Reading search tasks from sheet 'Позиции'
+2026-03-11 17:56:28.631 | DEBUG    | services.positions_sheet:25 | Row 2: item_id=2926807248 name='крем лифтинг-эффект'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 3: task item_id=2926807248 query='крем для шеи'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 4: task item_id=2926807248 query='крем лифтинг-эффект'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 5: task item_id=2926807248 query='крем от колец венеры'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 6: task item_id=2926807248 query='крем антивозрастной'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 7: task item_id=2926807248 query='уходовый крем антивозрастной'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:25 | Row 8: item_id=3179832255 name='сыворотка вокруг глаз'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 9: task item_id=3179832255 query='сыворотка для зоны вокруг глаз'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 10: task item_id=3179832255 query='сыворотка для век увлажняющая'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 11: task item_id=3179832255 query='сыворотка от мимических морщин'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 12: task item_id=3179832255 query='антивозрастная сыворотка для зоны вокруг глаз'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:30 | Row 13: task item_id=3179832255 query='сыворотка от темных кругов'
+2026-03-11 17:56:28.632 | DEBUG    | services.positions_sheet:25 | Row 14: item_id=3302831485 name='сыворотка антивозрастная'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 15: task item_id=3302831485 query='сыворотка антивозрастная'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 16: task item_id=3302831485 query='сыворотка омолаживающая'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 17: task item_id=3302831485 query='сыворотка омолаживающая с ретинолом'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 18: task item_id=3302831485 query='сыворотка против пигментации'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 19: task item_id=3302831485 query='сыворотка от акне'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 20: task item_id=3302831485 query='сывротка для сужения пор'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 21: task item_id=3302831485 query='уход для жирной кожи'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 22: task item_id=3302831485 query='сыворотка для проблемной кожи'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 23: task item_id=3302831485 query='уход для проблемной кожи'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:25 | Row 24: item_id=3484987706 name='сыворотка с витамином с'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 25: task item_id=3484987706 query='сыворотка с витамином с'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 26: task item_id=3484987706 query='сыворотка для сияния лица'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 27: task item_id=3484987706 query='сыворотка для упругости кожи'
+2026-03-11 17:56:28.633 | DEBUG    | services.positions_sheet:30 | Row 28: task item_id=3484987706 query='сыворотка для лица на лето'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 29: task item_id=3484987706 query='сыворотка для лица'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:25 | Row 30: item_id=2877612654 name='крем увлажняющий'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 31: task item_id=2877612654 query='крем для лица'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 32: task item_id=2877612654 query='крем для лица увлажняющий'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 33: task item_id=2877612654 query='крем для сухой кожи'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 34: task item_id=2877612654 query='крем для лица с ниацинамидами'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 35: task item_id=2877612654 query='крем для лица восстанавливающий'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:25 | Row 36: item_id=2104059885 name='пенка для умывания'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 37: task item_id=2104059885 query='пенка для умывания'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 38: task item_id=2104059885 query='пенка для лица'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 39: task item_id=2104059885 query='пенка для жирной кожи'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 40: task item_id=2104059885 query='пенка очищающая'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 41: task item_id=2104059885 query='пенка для проблемной кожи'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:25 | Row 42: item_id=3397872813 name='крем для лица восстанавливающий'
+2026-03-11 17:56:28.634 | DEBUG    | services.positions_sheet:30 | Row 43: task item_id=3397872813 query='крем для лица'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 44: task item_id=3397872813 query='крем для лица восстанавливающий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 45: task item_id=3397872813 query='крем для лица увлажняющий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 46: task item_id=3397872813 query='крем для лица с церамидами'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 47: task item_id=3397872813 query='крем для лица питающий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 48: task item_id=3397872813 query='крем для лица для проблемной кожи'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:25 | Row 49: item_id=3179941439 name='крем увлажняющий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 50: task item_id=3179941439 query='крем для рук'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 51: task item_id=3179941439 query='крем для тела'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 52: task item_id=3179941439 query='крем для тела и рук'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 53: task item_id=3179941439 query='крем для тела с церамидами'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 54: task item_id=3179941439 query='крем для рук увлажняющий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 55: task item_id=3179941439 query='крем для тела увлажняющий'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 56: task item_id=3179941439 query='крем для тела питательный'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:25 | Row 57: item_id=3302811374 name='эссенция'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 58: task item_id=3302811374 query='эссенция для лица'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 59: task item_id=3302811374 query='молочко для лица'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 60: task item_id=3302811374 query='лосьон для лица'
+2026-03-11 17:56:28.635 | DEBUG    | services.positions_sheet:30 | Row 61: task item_id=3302811374 query='эссенция для лица антивозрастная'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 62: task item_id=3302811374 query='эссенция восстанавливающая'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:25 | Row 63: item_id=2877587534 name='тонер'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 64: task item_id=2877587534 query='тонер'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 65: task item_id=2877587534 query='тонер для лица'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 66: task item_id=2877587534 query='тонер для лица увлажняющий'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 67: task item_id=2877587534 query='тоник для лица'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 68: task item_id=2877587534 query='тоник для лица увлажняющий'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:25 | Row 69: item_id=2877598652 name='сыворотка для лица'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 70: task item_id=2877598652 query='сыворотка для лица'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 71: task item_id=2877598652 query='сыворотка сужающая'
+2026-03-11 17:56:28.636 | DEBUG    | services.positions_sheet:30 | Row 72: task item_id=2877598652 query='сыворотка для лица восстанавливающая'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 73: task item_id=2877598652 query='сыворотка для лица очищающая'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 74: task item_id=2877598652 query='сыворотка для лица для проблемной кожи'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 75: task item_id=2877598652 query='сыворотка для лица от высыпаний'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:25 | Row 76: item_id=1534948802 name='гель-сыворотка'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 77: task item_id=1534948802 query='гель для лица'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 78: task item_id=1534948802 query='сыворотка для лица'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 79: task item_id=1534948802 query='гель для лица восстанавливающий'
+2026-03-11 17:56:28.637 | DEBUG    | services.positions_sheet:30 | Row 80: task item_id=1534948802 query='сыворотка для лица восстанавлиающая'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 81: task item_id=1534948802 query='сыворотка для лица антивозрастная'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 82: task item_id=1534948802 query='гель для лица увлажняющий'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 83: task item_id=1534948802 query='сыворотка для лица увлажняющая'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 84: task item_id=1534948802 query='сывротка для всех типов кожи'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:25 | Row 85: item_id=2199167907 name='гель для душа'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 86: task item_id=2199167907 query='гель для душа'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 87: task item_id=2199167907 query='гель для душа женский'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 88: task item_id=2199167907 query='гель для душа без сульфатов'
+2026-03-11 17:56:28.638 | DEBUG    | services.positions_sheet:30 | Row 89: task item_id=2199167907 query='гель для душа увлажняющий'
+2026-03-11 17:56:28.638 | INFO     | services.positions_sheet:32 | Loaded 75 search tasks from sheet 'Позиции'
+2026-03-11 17:56:28.639 | INFO     | __main__:28 | Unique queries to fetch: 70
+2026-03-11 17:56:28.639 | INFO     | services.ozon_client:19 | Starting OzonSearchClient session
+2026-03-11 17:56:28.860 | DEBUG    | services.browser:69 | Launching Chromium | headless=True user_data_dir=browser_data
+2026-03-11 17:56:29.075 | DEBUG    | services.browser:86 | Browser context launched
+2026-03-11 17:56:29.075 | DEBUG    | services.browser:41 | Loading cookies from cookies.json
+2026-03-11 17:56:29.075 | DEBUG    | services.browser:62 | Loaded 14 cookies
+2026-03-11 17:56:29.109 | DEBUG    | services.browser:104 | New stealth page created
+2026-03-11 17:56:29.109 | DEBUG    | services.browser:115 | Browser ready with cookies applied
+2026-03-11 17:56:29.109 | DEBUG    | services.ozon_api:40 | Navigating to https://seller.ozon.ru/app/analytics-search/search-results/validator
+2026-03-11 17:56:30.061 | DEBUG    | services.ozon_api:43 | Page ready: https://seller.ozon.ru/app/analytics-search/search-results/validator?__rr=1
+2026-03-11 17:56:30.061 | INFO     | services.ozon_client:23 | Session ready
+2026-03-11 17:56:30.061 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для шеи' items=1
+2026-03-11 17:56:30.061 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для шеи' items=['2926807248']
+2026-03-11 17:56:30.247 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605565845"}
+2026-03-11 17:56:30.248 | DEBUG    | services.ozon_api:85 | Task created: 605565845
+2026-03-11 17:56:30.248 | DEBUG    | services.ozon_api:92 | Polling task 605565845
+2026-03-11 17:56:30.405 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:30.405 | DEBUG    | services.ozon_api:121 | Task 605565845 status=IN_PROCESS, waiting...
+2026-03-11 17:56:32.210 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2926807248", "name":"Крем для шеи и декольте MYSENSIA с вольюфилином 75мл (ex. Sokolova) лифтинг эффект", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-q/8440145306.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"91", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:32.211 | DEBUG    | services.ozon_api:118 | Task 605565845 completed, 1 items returned
+2026-03-11 17:56:32.211 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для шеи'
+2026-03-11 17:56:34.213 | INFO     | services.ozon_client:32 | Fetching positions | query='крем лифтинг-эффект' items=1
+2026-03-11 17:56:34.213 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем лифтинг-эффект' items=['2926807248']
+2026-03-11 17:56:34.390 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605565883"}
+2026-03-11 17:56:34.390 | DEBUG    | services.ozon_api:85 | Task created: 605565883
+2026-03-11 17:56:34.390 | DEBUG    | services.ozon_api:92 | Polling task 605565883
+2026-03-11 17:56:34.596 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:34.597 | DEBUG    | services.ozon_api:121 | Task 605565883 status=IN_PROCESS, waiting...
+2026-03-11 17:56:36.268 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2926807248", "name":"Крем для шеи и декольте MYSENSIA с вольюфилином 75мл (ex. Sokolova) лифтинг эффект", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-q/8440145306.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"118", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:36.270 | DEBUG    | services.ozon_api:118 | Task 605565883 completed, 1 items returned
+2026-03-11 17:56:36.270 | INFO     | services.ozon_client:36 | Got 1 results for query='крем лифтинг-эффект'
+2026-03-11 17:56:38.272 | INFO     | services.ozon_client:32 | Fetching positions | query='крем от колец венеры' items=1
+2026-03-11 17:56:38.272 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем от колец венеры' items=['2926807248']
+2026-03-11 17:56:38.438 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605565912"}
+2026-03-11 17:56:38.438 | DEBUG    | services.ozon_api:85 | Task created: 605565912
+2026-03-11 17:56:38.438 | DEBUG    | services.ozon_api:92 | Polling task 605565912
+2026-03-11 17:56:38.600 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:38.600 | DEBUG    | services.ozon_api:121 | Task 605565912 status=IN_PROCESS, waiting...
+2026-03-11 17:56:40.267 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2926807248", "name":"Крем для шеи и декольте MYSENSIA с вольюфилином 75мл (ex. Sokolova) лифтинг эффект", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-q/8440145306.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"27", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:40.267 | DEBUG    | services.ozon_api:118 | Task 605565912 completed, 1 items returned
+2026-03-11 17:56:40.268 | INFO     | services.ozon_client:36 | Got 1 results for query='крем от колец венеры'
+2026-03-11 17:56:42.269 | INFO     | services.ozon_client:32 | Fetching positions | query='крем антивозрастной' items=1
+2026-03-11 17:56:42.269 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем антивозрастной' items=['2926807248']
+2026-03-11 17:56:42.435 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605565984"}
+2026-03-11 17:56:42.435 | DEBUG    | services.ozon_api:85 | Task created: 605565984
+2026-03-11 17:56:42.435 | DEBUG    | services.ozon_api:92 | Polling task 605565984
+2026-03-11 17:56:42.595 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:42.596 | DEBUG    | services.ozon_api:121 | Task 605565984 status=IN_PROCESS, waiting...
+2026-03-11 17:56:44.260 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2926807248", "name":"Крем для шеи и декольте MYSENSIA с вольюфилином 75мл (ex. Sokolova) лифтинг эффект", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-q/8440145306.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:44.260 | DEBUG    | services.ozon_api:118 | Task 605565984 completed, 1 items returned
+2026-03-11 17:56:44.260 | INFO     | services.ozon_client:36 | Got 1 results for query='крем антивозрастной'
+2026-03-11 17:56:46.262 | INFO     | services.ozon_client:32 | Fetching positions | query='уходовый крем антивозрастной' items=1
+2026-03-11 17:56:46.262 | DEBUG    | services.ozon_api:56 | Creating search task | query='уходовый крем антивозрастной' items=['2926807248']
+2026-03-11 17:56:46.432 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566033"}
+2026-03-11 17:56:46.433 | DEBUG    | services.ozon_api:85 | Task created: 605566033
+2026-03-11 17:56:46.433 | DEBUG    | services.ozon_api:92 | Polling task 605566033
+2026-03-11 17:56:46.596 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:46.596 | DEBUG    | services.ozon_api:121 | Task 605566033 status=IN_PROCESS, waiting...
+2026-03-11 17:56:48.292 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2926807248", "name":"Крем для шеи и декольте MYSENSIA с вольюфилином 75мл (ex. Sokolova) лифтинг эффект", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-q/8440145306.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"161", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:48.292 | DEBUG    | services.ozon_api:118 | Task 605566033 completed, 1 items returned
+2026-03-11 17:56:48.293 | INFO     | services.ozon_client:36 | Got 1 results for query='уходовый крем антивозрастной'
+2026-03-11 17:56:50.294 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для зоны вокруг глаз' items=1
+2026-03-11 17:56:50.295 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для зоны вокруг глаз' items=['3179832255']
+2026-03-11 17:56:50.467 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566082"}
+2026-03-11 17:56:50.468 | DEBUG    | services.ozon_api:85 | Task created: 605566082
+2026-03-11 17:56:50.468 | DEBUG    | services.ozon_api:92 | Polling task 605566082
+2026-03-11 17:56:50.630 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:50.631 | DEBUG    | services.ozon_api:121 | Task 605566082 status=IN_PROCESS, waiting...
+2026-03-11 17:56:52.295 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179832255", "name":"Сыворотка с пептидами против морщин вокруг глаз MYSENSIA (ex. SOKOLOVA cosmetics) 30 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/8440110263.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"181", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:52.296 | DEBUG    | services.ozon_api:118 | Task 605566082 completed, 1 items returned
+2026-03-11 17:56:52.296 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для зоны вокруг глаз'
+2026-03-11 17:56:54.297 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для век увлажняющая' items=1
+2026-03-11 17:56:54.298 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для век увлажняющая' items=['3179832255']
+2026-03-11 17:56:54.463 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566142"}
+2026-03-11 17:56:54.464 | DEBUG    | services.ozon_api:85 | Task created: 605566142
+2026-03-11 17:56:54.464 | DEBUG    | services.ozon_api:92 | Polling task 605566142
+2026-03-11 17:56:54.627 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:54.627 | DEBUG    | services.ozon_api:121 | Task 605566142 status=IN_PROCESS, waiting...
+2026-03-11 17:56:56.291 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179832255", "name":"Сыворотка с пептидами против морщин вокруг глаз MYSENSIA (ex. SOKOLOVA cosmetics) 30 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/8440110263.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"321", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:56:56.291 | DEBUG    | services.ozon_api:118 | Task 605566142 completed, 1 items returned
+2026-03-11 17:56:56.292 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для век увлажняющая'
+2026-03-11 17:56:58.293 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка от мимических морщин' items=1
+2026-03-11 17:56:58.294 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка от мимических морщин' items=['3179832255']
+2026-03-11 17:56:58.461 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566176"}
+2026-03-11 17:56:58.461 | DEBUG    | services.ozon_api:85 | Task created: 605566176
+2026-03-11 17:56:58.462 | DEBUG    | services.ozon_api:92 | Polling task 605566176
+2026-03-11 17:56:58.623 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:56:58.623 | DEBUG    | services.ozon_api:121 | Task 605566176 status=IN_PROCESS, waiting...
+2026-03-11 17:57:00.295 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179832255", "name":"Сыворотка с пептидами против морщин вокруг глаз MYSENSIA (ex. SOKOLOVA cosmetics) 30 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/8440110263.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:00.295 | DEBUG    | services.ozon_api:118 | Task 605566176 completed, 1 items returned
+2026-03-11 17:57:00.295 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка от мимических морщин'
+2026-03-11 17:57:02.297 | INFO     | services.ozon_client:32 | Fetching positions | query='антивозрастная сыворотка для зоны вокруг глаз' items=1
+2026-03-11 17:57:02.297 | DEBUG    | services.ozon_api:56 | Creating search task | query='антивозрастная сыворотка для зоны вокруг глаз' items=['3179832255']
+2026-03-11 17:57:02.461 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566232"}
+2026-03-11 17:57:02.461 | DEBUG    | services.ozon_api:85 | Task created: 605566232
+2026-03-11 17:57:02.461 | DEBUG    | services.ozon_api:92 | Polling task 605566232
+2026-03-11 17:57:02.622 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:02.623 | DEBUG    | services.ozon_api:121 | Task 605566232 status=IN_PROCESS, waiting...
+2026-03-11 17:57:04.289 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179832255", "name":"Сыворотка с пептидами против морщин вокруг глаз MYSENSIA (ex. SOKOLOVA cosmetics) 30 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/8440110263.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:04.289 | DEBUG    | services.ozon_api:118 | Task 605566232 completed, 1 items returned
+2026-03-11 17:57:04.290 | INFO     | services.ozon_client:36 | Got 1 results for query='антивозрастная сыворотка для зоны вокруг глаз'
+2026-03-11 17:57:06.291 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка от темных кругов' items=1
+2026-03-11 17:57:06.292 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка от темных кругов' items=['3179832255']
+2026-03-11 17:57:06.460 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566252"}
+2026-03-11 17:57:06.461 | DEBUG    | services.ozon_api:85 | Task created: 605566252
+2026-03-11 17:57:06.461 | DEBUG    | services.ozon_api:92 | Polling task 605566252
+2026-03-11 17:57:06.622 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:06.623 | DEBUG    | services.ozon_api:121 | Task 605566252 status=IN_PROCESS, waiting...
+2026-03-11 17:57:08.494 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179832255", "name":"Сыворотка с пептидами против морщин вокруг глаз MYSENSIA (ex. SOKOLOVA cosmetics) 30 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/8440110263.jpg", "searchStatus":"NOT_FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":["IOS", "ANDROID", "SITE_MOBILE_SITE"], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:08.495 | DEBUG    | services.ozon_api:118 | Task 605566252 completed, 1 items returned
+2026-03-11 17:57:08.495 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка от темных кругов'
+2026-03-11 17:57:10.496 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка антивозрастная' items=1
+2026-03-11 17:57:10.497 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка антивозрастная' items=['3302831485']
+2026-03-11 17:57:10.658 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566302"}
+2026-03-11 17:57:10.658 | DEBUG    | services.ozon_api:85 | Task created: 605566302
+2026-03-11 17:57:10.658 | DEBUG    | services.ozon_api:92 | Polling task 605566302
+2026-03-11 17:57:10.824 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:10.824 | DEBUG    | services.ozon_api:121 | Task 605566302 status=IN_PROCESS, waiting...
+2026-03-11 17:57:12.486 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:12.487 | DEBUG    | services.ozon_api:118 | Task 605566302 completed, 1 items returned
+2026-03-11 17:57:12.487 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка антивозрастная'
+2026-03-11 17:57:14.488 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка омолаживающая' items=1
+2026-03-11 17:57:14.489 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка омолаживающая' items=['3302831485']
+2026-03-11 17:57:14.655 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566305"}
+2026-03-11 17:57:14.655 | DEBUG    | services.ozon_api:85 | Task created: 605566305
+2026-03-11 17:57:14.655 | DEBUG    | services.ozon_api:92 | Polling task 605566305
+2026-03-11 17:57:14.816 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:14.816 | DEBUG    | services.ozon_api:121 | Task 605566305 status=IN_PROCESS, waiting...
+2026-03-11 17:57:16.481 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:16.481 | DEBUG    | services.ozon_api:118 | Task 605566305 completed, 1 items returned
+2026-03-11 17:57:16.482 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка омолаживающая'
+2026-03-11 17:57:18.484 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка омолаживающая с ретинолом' items=1
+2026-03-11 17:57:18.484 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка омолаживающая с ретинолом' items=['3302831485']
+2026-03-11 17:57:18.656 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566329"}
+2026-03-11 17:57:18.656 | DEBUG    | services.ozon_api:85 | Task created: 605566329
+2026-03-11 17:57:18.656 | DEBUG    | services.ozon_api:92 | Polling task 605566329
+2026-03-11 17:57:18.818 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:18.818 | DEBUG    | services.ozon_api:121 | Task 605566329 status=IN_PROCESS, waiting...
+2026-03-11 17:57:20.479 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:20.479 | DEBUG    | services.ozon_api:118 | Task 605566329 completed, 1 items returned
+2026-03-11 17:57:20.479 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка омолаживающая с ретинолом'
+2026-03-11 17:57:22.480 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка против пигментации' items=1
+2026-03-11 17:57:22.481 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка против пигментации' items=['3302831485']
+2026-03-11 17:57:22.644 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566357"}
+2026-03-11 17:57:22.645 | DEBUG    | services.ozon_api:85 | Task created: 605566357
+2026-03-11 17:57:22.645 | DEBUG    | services.ozon_api:92 | Polling task 605566357
+2026-03-11 17:57:22.813 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:22.813 | DEBUG    | services.ozon_api:121 | Task 605566357 status=IN_PROCESS, waiting...
+2026-03-11 17:57:24.482 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"128", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:24.482 | DEBUG    | services.ozon_api:118 | Task 605566357 completed, 1 items returned
+2026-03-11 17:57:24.483 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка против пигментации'
+2026-03-11 17:57:26.484 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка от акне' items=1
+2026-03-11 17:57:26.485 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка от акне' items=['3302831485']
+2026-03-11 17:57:26.650 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566382"}
+2026-03-11 17:57:26.651 | DEBUG    | services.ozon_api:85 | Task created: 605566382
+2026-03-11 17:57:26.651 | DEBUG    | services.ozon_api:92 | Polling task 605566382
+2026-03-11 17:57:26.811 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:26.812 | DEBUG    | services.ozon_api:121 | Task 605566382 status=IN_PROCESS, waiting...
+2026-03-11 17:57:28.479 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:28.479 | DEBUG    | services.ozon_api:118 | Task 605566382 completed, 1 items returned
+2026-03-11 17:57:28.480 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка от акне'
+2026-03-11 17:57:30.481 | INFO     | services.ozon_client:32 | Fetching positions | query='сывротка для сужения пор' items=1
+2026-03-11 17:57:30.481 | DEBUG    | services.ozon_api:56 | Creating search task | query='сывротка для сужения пор' items=['3302831485']
+2026-03-11 17:57:30.673 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566406"}
+2026-03-11 17:57:30.673 | DEBUG    | services.ozon_api:85 | Task created: 605566406
+2026-03-11 17:57:30.673 | DEBUG    | services.ozon_api:92 | Polling task 605566406
+2026-03-11 17:57:30.837 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:30.837 | DEBUG    | services.ozon_api:121 | Task 605566406 status=IN_PROCESS, waiting...
+2026-03-11 17:57:32.502 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:32.502 | DEBUG    | services.ozon_api:118 | Task 605566406 completed, 1 items returned
+2026-03-11 17:57:32.503 | INFO     | services.ozon_client:36 | Got 1 results for query='сывротка для сужения пор'
+2026-03-11 17:57:34.504 | INFO     | services.ozon_client:32 | Fetching positions | query='уход для жирной кожи' items=1
+2026-03-11 17:57:34.505 | DEBUG    | services.ozon_api:56 | Creating search task | query='уход для жирной кожи' items=['3302831485']
+2026-03-11 17:57:34.670 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566444"}
+2026-03-11 17:57:34.671 | DEBUG    | services.ozon_api:85 | Task created: 605566444
+2026-03-11 17:57:34.671 | DEBUG    | services.ozon_api:92 | Polling task 605566444
+2026-03-11 17:57:34.838 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:34.838 | DEBUG    | services.ozon_api:121 | Task 605566444 status=IN_PROCESS, waiting...
+2026-03-11 17:57:36.502 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:36.502 | DEBUG    | services.ozon_api:118 | Task 605566444 completed, 1 items returned
+2026-03-11 17:57:36.502 | INFO     | services.ozon_client:36 | Got 1 results for query='уход для жирной кожи'
+2026-03-11 17:57:38.504 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для проблемной кожи' items=1
+2026-03-11 17:57:38.504 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для проблемной кожи' items=['3302831485']
+2026-03-11 17:57:38.667 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566447"}
+2026-03-11 17:57:38.667 | DEBUG    | services.ozon_api:85 | Task created: 605566447
+2026-03-11 17:57:38.668 | DEBUG    | services.ozon_api:92 | Polling task 605566447
+2026-03-11 17:57:38.831 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:38.832 | DEBUG    | services.ozon_api:121 | Task 605566447 status=IN_PROCESS, waiting...
+2026-03-11 17:57:40.495 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:40.495 | DEBUG    | services.ozon_api:118 | Task 605566447 completed, 1 items returned
+2026-03-11 17:57:40.495 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для проблемной кожи'
+2026-03-11 17:57:42.497 | INFO     | services.ozon_client:32 | Fetching positions | query='уход для проблемной кожи' items=1
+2026-03-11 17:57:42.497 | DEBUG    | services.ozon_api:56 | Creating search task | query='уход для проблемной кожи' items=['3302831485']
+2026-03-11 17:57:42.663 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566455"}
+2026-03-11 17:57:42.663 | DEBUG    | services.ozon_api:85 | Task created: 605566455
+2026-03-11 17:57:42.664 | DEBUG    | services.ozon_api:92 | Polling task 605566455
+2026-03-11 17:57:42.829 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:42.829 | DEBUG    | services.ozon_api:121 | Task 605566455 status=IN_PROCESS, waiting...
+2026-03-11 17:57:44.501 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302831485", "name":"Сыворотка HPR 0.2% MYSENSIA 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-e/8656344086.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:44.501 | DEBUG    | services.ozon_api:118 | Task 605566455 completed, 1 items returned
+2026-03-11 17:57:44.501 | INFO     | services.ozon_client:36 | Got 1 results for query='уход для проблемной кожи'
+2026-03-11 17:57:46.502 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка с витамином с' items=1
+2026-03-11 17:57:46.502 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка с витамином с' items=['3484987706']
+2026-03-11 17:57:46.672 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566472"}
+2026-03-11 17:57:46.672 | DEBUG    | services.ozon_api:85 | Task created: 605566472
+2026-03-11 17:57:46.673 | DEBUG    | services.ozon_api:92 | Polling task 605566472
+2026-03-11 17:57:46.837 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:46.837 | DEBUG    | services.ozon_api:121 | Task 605566472 status=IN_PROCESS, waiting...
+2026-03-11 17:57:48.503 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3484987706", "name":"Сыворотка с витамином С 10% MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-4/8986036756.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"133", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:48.504 | DEBUG    | services.ozon_api:118 | Task 605566472 completed, 1 items returned
+2026-03-11 17:57:48.504 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка с витамином с'
+2026-03-11 17:57:50.506 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для сияния лица' items=1
+2026-03-11 17:57:50.506 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для сияния лица' items=['3484987706']
+2026-03-11 17:57:50.670 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566485"}
+2026-03-11 17:57:50.670 | DEBUG    | services.ozon_api:85 | Task created: 605566485
+2026-03-11 17:57:50.670 | DEBUG    | services.ozon_api:92 | Polling task 605566485
+2026-03-11 17:57:50.831 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:50.831 | DEBUG    | services.ozon_api:121 | Task 605566485 status=IN_PROCESS, waiting...
+2026-03-11 17:57:52.510 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3484987706", "name":"Сыворотка с витамином С 10% MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-4/8986036756.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"53", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:52.510 | DEBUG    | services.ozon_api:118 | Task 605566485 completed, 1 items returned
+2026-03-11 17:57:52.510 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для сияния лица'
+2026-03-11 17:57:54.512 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для упругости кожи' items=1
+2026-03-11 17:57:54.512 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для упругости кожи' items=['3484987706']
+2026-03-11 17:57:54.677 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566502"}
+2026-03-11 17:57:54.678 | DEBUG    | services.ozon_api:85 | Task created: 605566502
+2026-03-11 17:57:54.678 | DEBUG    | services.ozon_api:92 | Polling task 605566502
+2026-03-11 17:57:54.846 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:54.846 | DEBUG    | services.ozon_api:121 | Task 605566502 status=IN_PROCESS, waiting...
+2026-03-11 17:57:56.513 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3484987706", "name":"Сыворотка с витамином С 10% MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-4/8986036756.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"68", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:57:56.514 | DEBUG    | services.ozon_api:118 | Task 605566502 completed, 1 items returned
+2026-03-11 17:57:56.514 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для упругости кожи'
+2026-03-11 17:57:58.515 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица на лето' items=1
+2026-03-11 17:57:58.515 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица на лето' items=['3484987706']
+2026-03-11 17:57:58.684 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566505"}
+2026-03-11 17:57:58.684 | DEBUG    | services.ozon_api:85 | Task created: 605566505
+2026-03-11 17:57:58.684 | DEBUG    | services.ozon_api:92 | Polling task 605566505
+2026-03-11 17:57:58.847 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:57:58.848 | DEBUG    | services.ozon_api:121 | Task 605566505 status=IN_PROCESS, waiting...
+2026-03-11 17:58:00.512 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3484987706", "name":"Сыворотка с витамином С 10% MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-4/8986036756.jpg", "searchStatus":"NOT_FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":["IOS", "ANDROID", "SITE_MOBILE_SITE"], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:00.512 | DEBUG    | services.ozon_api:118 | Task 605566505 completed, 1 items returned
+2026-03-11 17:58:00.512 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица на лето'
+2026-03-11 17:58:02.513 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица' items=3
+2026-03-11 17:58:02.514 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица' items=['3484987706', '2877598652', '1534948802']
+2026-03-11 17:58:02.681 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566518"}
+2026-03-11 17:58:02.681 | DEBUG    | services.ozon_api:85 | Task created: 605566518
+2026-03-11 17:58:02.681 | DEBUG    | services.ozon_api:92 | Polling task 605566518
+2026-03-11 17:58:02.857 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:02.858 | DEBUG    | services.ozon_api:121 | Task 605566518 status=IN_PROCESS, waiting...
+2026-03-11 17:58:04.524 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}, {"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}, {"itemId":"3484987706", "name":"Сыворотка с витамином С 10% MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-4/8986036756.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:04.525 | DEBUG    | services.ozon_api:118 | Task 605566518 completed, 3 items returned
+2026-03-11 17:58:04.525 | INFO     | services.ozon_client:36 | Got 3 results for query='сыворотка для лица'
+2026-03-11 17:58:06.527 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица' items=2
+2026-03-11 17:58:06.528 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица' items=['2877612654', '3397872813']
+2026-03-11 17:58:06.692 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566523"}
+2026-03-11 17:58:06.693 | DEBUG    | services.ozon_api:85 | Task created: 605566523
+2026-03-11 17:58:06.693 | DEBUG    | services.ozon_api:92 | Polling task 605566523
+2026-03-11 17:58:06.854 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:06.854 | DEBUG    | services.ozon_api:121 | Task 605566523 status=IN_PROCESS, waiting...
+2026-03-11 17:58:08.521 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877612654", "name":"Крем для лица CERAMIDE увлажняющий, питательный ELEVEN TWELVE с церамидами, с гиалуроновой кислотой, с пантенолом, со скваланом и с витамином Е для всех типов кожи для ежедневного применения", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7264929629.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}, {"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:08.522 | DEBUG    | services.ozon_api:118 | Task 605566523 completed, 2 items returned
+2026-03-11 17:58:08.522 | INFO     | services.ozon_client:36 | Got 2 results for query='крем для лица'
+2026-03-11 17:58:10.523 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица увлажняющий' items=2
+2026-03-11 17:58:10.523 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица увлажняющий' items=['2877612654', '3397872813']
+2026-03-11 17:58:10.682 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566550"}
+2026-03-11 17:58:10.682 | DEBUG    | services.ozon_api:85 | Task created: 605566550
+2026-03-11 17:58:10.682 | DEBUG    | services.ozon_api:92 | Polling task 605566550
+2026-03-11 17:58:10.839 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:10.839 | DEBUG    | services.ozon_api:121 | Task 605566550 status=IN_PROCESS, waiting...
+2026-03-11 17:58:12.505 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877612654", "name":"Крем для лица CERAMIDE увлажняющий, питательный ELEVEN TWELVE с церамидами, с гиалуроновой кислотой, с пантенолом, со скваланом и с витамином Е для всех типов кожи для ежедневного применения", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7264929629.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}, {"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:12.505 | DEBUG    | services.ozon_api:118 | Task 605566550 completed, 2 items returned
+2026-03-11 17:58:12.505 | INFO     | services.ozon_client:36 | Got 2 results for query='крем для лица увлажняющий'
+2026-03-11 17:58:14.507 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для сухой кожи' items=1
+2026-03-11 17:58:14.507 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для сухой кожи' items=['2877612654']
+2026-03-11 17:58:14.685 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566552"}
+2026-03-11 17:58:14.685 | DEBUG    | services.ozon_api:85 | Task created: 605566552
+2026-03-11 17:58:14.686 | DEBUG    | services.ozon_api:92 | Polling task 605566552
+2026-03-11 17:58:14.848 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:14.848 | DEBUG    | services.ozon_api:121 | Task 605566552 status=IN_PROCESS, waiting...
+2026-03-11 17:58:16.505 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877612654", "name":"Крем для лица CERAMIDE увлажняющий, питательный ELEVEN TWELVE с церамидами, с гиалуроновой кислотой, с пантенолом, со скваланом и с витамином Е для всех типов кожи для ежедневного применения", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7264929629.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:16.505 | DEBUG    | services.ozon_api:118 | Task 605566552 completed, 1 items returned
+2026-03-11 17:58:16.505 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для сухой кожи'
+2026-03-11 17:58:18.506 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица с ниацинамидами' items=1
+2026-03-11 17:58:18.508 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица с ниацинамидами' items=['2877612654']
+2026-03-11 17:58:18.673 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566553"}
+2026-03-11 17:58:18.673 | DEBUG    | services.ozon_api:85 | Task created: 605566553
+2026-03-11 17:58:18.673 | DEBUG    | services.ozon_api:92 | Polling task 605566553
+2026-03-11 17:58:18.834 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:18.835 | DEBUG    | services.ozon_api:121 | Task 605566553 status=IN_PROCESS, waiting...
+2026-03-11 17:58:20.508 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877612654", "name":"Крем для лица CERAMIDE увлажняющий, питательный ELEVEN TWELVE с церамидами, с гиалуроновой кислотой, с пантенолом, со скваланом и с витамином Е для всех типов кожи для ежедневного применения", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7264929629.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"209", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:20.508 | DEBUG    | services.ozon_api:118 | Task 605566553 completed, 1 items returned
+2026-03-11 17:58:20.508 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для лица с ниацинамидами'
+2026-03-11 17:58:22.510 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица восстанавливающий' items=2
+2026-03-11 17:58:22.510 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица восстанавливающий' items=['2877612654', '3397872813']
+2026-03-11 17:58:22.680 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566554"}
+2026-03-11 17:58:22.681 | DEBUG    | services.ozon_api:85 | Task created: 605566554
+2026-03-11 17:58:22.681 | DEBUG    | services.ozon_api:92 | Polling task 605566554
+2026-03-11 17:58:22.864 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:22.864 | DEBUG    | services.ozon_api:121 | Task 605566554 status=IN_PROCESS, waiting...
+2026-03-11 17:58:24.529 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877612654", "name":"Крем для лица CERAMIDE увлажняющий, питательный ELEVEN TWELVE с церамидами, с гиалуроновой кислотой, с пантенолом, со скваланом и с витамином Е для всех типов кожи для ежедневного применения", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7264929629.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"373", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}, {"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"966", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:24.530 | DEBUG    | services.ozon_api:118 | Task 605566554 completed, 2 items returned
+2026-03-11 17:58:24.530 | INFO     | services.ozon_client:36 | Got 2 results for query='крем для лица восстанавливающий'
+2026-03-11 17:58:26.531 | INFO     | services.ozon_client:32 | Fetching positions | query='пенка для умывания' items=1
+2026-03-11 17:58:26.532 | DEBUG    | services.ozon_api:56 | Creating search task | query='пенка для умывания' items=['2104059885']
+2026-03-11 17:58:26.695 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566555"}
+2026-03-11 17:58:26.695 | DEBUG    | services.ozon_api:85 | Task created: 605566555
+2026-03-11 17:58:26.695 | DEBUG    | services.ozon_api:92 | Polling task 605566555
+2026-03-11 17:58:26.856 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:26.857 | DEBUG    | services.ozon_api:121 | Task 605566555 status=IN_PROCESS, waiting...
+2026-03-11 17:58:28.521 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2104059885", "name":"Пенка для умывания AHA BHA PHA FOAM с салициловой, молочной и гликолевой кислотой, очищающая, отшелушивающая, матирующая и увлажняющая ELEVEN TWELVE 150 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7573496753.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:28.522 | DEBUG    | services.ozon_api:118 | Task 605566555 completed, 1 items returned
+2026-03-11 17:58:28.522 | INFO     | services.ozon_client:36 | Got 1 results for query='пенка для умывания'
+2026-03-11 17:58:30.523 | INFO     | services.ozon_client:32 | Fetching positions | query='пенка для лица' items=1
+2026-03-11 17:58:30.527 | DEBUG    | services.ozon_api:56 | Creating search task | query='пенка для лица' items=['2104059885']
+2026-03-11 17:58:30.687 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566557"}
+2026-03-11 17:58:30.688 | DEBUG    | services.ozon_api:85 | Task created: 605566557
+2026-03-11 17:58:30.688 | DEBUG    | services.ozon_api:92 | Polling task 605566557
+2026-03-11 17:58:30.850 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:30.850 | DEBUG    | services.ozon_api:121 | Task 605566557 status=IN_PROCESS, waiting...
+2026-03-11 17:58:32.520 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2104059885", "name":"Пенка для умывания AHA BHA PHA FOAM с салициловой, молочной и гликолевой кислотой, очищающая, отшелушивающая, матирующая и увлажняющая ELEVEN TWELVE 150 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7573496753.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:32.520 | DEBUG    | services.ozon_api:118 | Task 605566557 completed, 1 items returned
+2026-03-11 17:58:32.520 | INFO     | services.ozon_client:36 | Got 1 results for query='пенка для лица'
+2026-03-11 17:58:34.521 | INFO     | services.ozon_client:32 | Fetching positions | query='пенка для жирной кожи' items=1
+2026-03-11 17:58:34.523 | DEBUG    | services.ozon_api:56 | Creating search task | query='пенка для жирной кожи' items=['2104059885']
+2026-03-11 17:58:34.874 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566574"}
+2026-03-11 17:58:34.874 | DEBUG    | services.ozon_api:85 | Task created: 605566574
+2026-03-11 17:58:34.874 | DEBUG    | services.ozon_api:92 | Polling task 605566574
+2026-03-11 17:58:35.042 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:35.042 | DEBUG    | services.ozon_api:121 | Task 605566574 status=IN_PROCESS, waiting...
+2026-03-11 17:58:36.706 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2104059885", "name":"Пенка для умывания AHA BHA PHA FOAM с салициловой, молочной и гликолевой кислотой, очищающая, отшелушивающая, матирующая и увлажняющая ELEVEN TWELVE 150 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7573496753.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"54", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:36.707 | DEBUG    | services.ozon_api:118 | Task 605566574 completed, 1 items returned
+2026-03-11 17:58:36.707 | INFO     | services.ozon_client:36 | Got 1 results for query='пенка для жирной кожи'
+2026-03-11 17:58:38.709 | INFO     | services.ozon_client:32 | Fetching positions | query='пенка очищающая' items=1
+2026-03-11 17:58:38.709 | DEBUG    | services.ozon_api:56 | Creating search task | query='пенка очищающая' items=['2104059885']
+2026-03-11 17:58:38.882 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566577"}
+2026-03-11 17:58:38.882 | DEBUG    | services.ozon_api:85 | Task created: 605566577
+2026-03-11 17:58:38.882 | DEBUG    | services.ozon_api:92 | Polling task 605566577
+2026-03-11 17:58:39.045 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:39.045 | DEBUG    | services.ozon_api:121 | Task 605566577 status=IN_PROCESS, waiting...
+2026-03-11 17:58:40.705 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2104059885", "name":"Пенка для умывания AHA BHA PHA FOAM с салициловой, молочной и гликолевой кислотой, очищающая, отшелушивающая, матирующая и увлажняющая ELEVEN TWELVE 150 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7573496753.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"77", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:40.706 | DEBUG    | services.ozon_api:118 | Task 605566577 completed, 1 items returned
+2026-03-11 17:58:40.706 | INFO     | services.ozon_client:36 | Got 1 results for query='пенка очищающая'
+2026-03-11 17:58:42.707 | INFO     | services.ozon_client:32 | Fetching positions | query='пенка для проблемной кожи' items=1
+2026-03-11 17:58:42.708 | DEBUG    | services.ozon_api:56 | Creating search task | query='пенка для проблемной кожи' items=['2104059885']
+2026-03-11 17:58:42.871 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566580"}
+2026-03-11 17:58:42.871 | DEBUG    | services.ozon_api:85 | Task created: 605566580
+2026-03-11 17:58:42.871 | DEBUG    | services.ozon_api:92 | Polling task 605566580
+2026-03-11 17:58:43.030 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:43.030 | DEBUG    | services.ozon_api:121 | Task 605566580 status=IN_PROCESS, waiting...
+2026-03-11 17:58:44.696 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2104059885", "name":"Пенка для умывания AHA BHA PHA FOAM с салициловой, молочной и гликолевой кислотой, очищающая, отшелушивающая, матирующая и увлажняющая ELEVEN TWELVE 150 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-t/7573496753.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"57", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:44.696 | DEBUG    | services.ozon_api:118 | Task 605566580 completed, 1 items returned
+2026-03-11 17:58:44.696 | INFO     | services.ozon_client:36 | Got 1 results for query='пенка для проблемной кожи'
+2026-03-11 17:58:46.698 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица с церамидами' items=1
+2026-03-11 17:58:46.698 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица с церамидами' items=['3397872813']
+2026-03-11 17:58:46.867 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566583"}
+2026-03-11 17:58:46.868 | DEBUG    | services.ozon_api:85 | Task created: 605566583
+2026-03-11 17:58:46.868 | DEBUG    | services.ozon_api:92 | Polling task 605566583
+2026-03-11 17:58:47.032 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:47.032 | DEBUG    | services.ozon_api:121 | Task 605566583 status=IN_PROCESS, waiting...
+2026-03-11 17:58:48.694 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"64", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:48.694 | DEBUG    | services.ozon_api:118 | Task 605566583 completed, 1 items returned
+2026-03-11 17:58:48.695 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для лица с церамидами'
+2026-03-11 17:58:50.696 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица питающий' items=1
+2026-03-11 17:58:50.697 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица питающий' items=['3397872813']
+2026-03-11 17:58:50.863 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566584"}
+2026-03-11 17:58:50.863 | DEBUG    | services.ozon_api:85 | Task created: 605566584
+2026-03-11 17:58:50.863 | DEBUG    | services.ozon_api:92 | Polling task 605566584
+2026-03-11 17:58:51.031 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:51.032 | DEBUG    | services.ozon_api:121 | Task 605566584 status=IN_PROCESS, waiting...
+2026-03-11 17:58:52.694 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"22", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:52.695 | DEBUG    | services.ozon_api:118 | Task 605566584 completed, 1 items returned
+2026-03-11 17:58:52.695 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для лица питающий'
+2026-03-11 17:58:54.696 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для лица для проблемной кожи' items=1
+2026-03-11 17:58:54.697 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для лица для проблемной кожи' items=['3397872813']
+2026-03-11 17:58:54.861 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566587"}
+2026-03-11 17:58:54.862 | DEBUG    | services.ozon_api:85 | Task created: 605566587
+2026-03-11 17:58:54.862 | DEBUG    | services.ozon_api:92 | Polling task 605566587
+2026-03-11 17:58:55.029 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:55.030 | DEBUG    | services.ozon_api:121 | Task 605566587 status=IN_PROCESS, waiting...
+2026-03-11 17:58:56.696 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3397872813", "name":"Крем для лица восстанавливающий с церамидами MYSENSIA 50мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-9/8818144101.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:58:56.696 | DEBUG    | services.ozon_api:118 | Task 605566587 completed, 1 items returned
+2026-03-11 17:58:56.697 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для лица для проблемной кожи'
+2026-03-11 17:58:58.699 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для рук' items=1
+2026-03-11 17:58:58.699 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для рук' items=['3179941439']
+2026-03-11 17:58:58.865 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566588"}
+2026-03-11 17:58:58.866 | DEBUG    | services.ozon_api:85 | Task created: 605566588
+2026-03-11 17:58:58.866 | DEBUG    | services.ozon_api:92 | Polling task 605566588
+2026-03-11 17:58:59.029 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:58:59.030 | DEBUG    | services.ozon_api:121 | Task 605566588 status=IN_PROCESS, waiting...
+2026-03-11 17:59:00.691 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:00.692 | DEBUG    | services.ozon_api:118 | Task 605566588 completed, 1 items returned
+2026-03-11 17:59:00.692 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для рук'
+2026-03-11 17:59:02.693 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для тела' items=1
+2026-03-11 17:59:02.694 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для тела' items=['3179941439']
+2026-03-11 17:59:02.861 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566604"}
+2026-03-11 17:59:02.862 | DEBUG    | services.ozon_api:85 | Task created: 605566604
+2026-03-11 17:59:02.862 | DEBUG    | services.ozon_api:92 | Polling task 605566604
+2026-03-11 17:59:03.045 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:03.045 | DEBUG    | services.ozon_api:121 | Task 605566604 status=IN_PROCESS, waiting...
+2026-03-11 17:59:04.717 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:04.718 | DEBUG    | services.ozon_api:118 | Task 605566604 completed, 1 items returned
+2026-03-11 17:59:04.718 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для тела'
+2026-03-11 17:59:06.720 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для тела и рук' items=1
+2026-03-11 17:59:06.720 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для тела и рук' items=['3179941439']
+2026-03-11 17:59:06.892 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566605"}
+2026-03-11 17:59:06.893 | DEBUG    | services.ozon_api:85 | Task created: 605566605
+2026-03-11 17:59:06.893 | DEBUG    | services.ozon_api:92 | Polling task 605566605
+2026-03-11 17:59:07.718 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:07.719 | DEBUG    | services.ozon_api:118 | Task 605566605 completed, 1 items returned
+2026-03-11 17:59:07.719 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для тела и рук'
+2026-03-11 17:59:09.720 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для тела с церамидами' items=1
+2026-03-11 17:59:09.721 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для тела с церамидами' items=['3179941439']
+2026-03-11 17:59:09.900 | DEBUG    | services.ozon_api:67 | v2 raw response: {"code":1, "message":"too many requests", "details":[]}
+2026-03-11 17:59:09.900 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-11 17:59:20.074 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566622"}
+2026-03-11 17:59:20.074 | DEBUG    | services.ozon_api:85 | Task created: 605566622
+2026-03-11 17:59:20.074 | DEBUG    | services.ozon_api:92 | Polling task 605566622
+2026-03-11 17:59:20.236 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:20.236 | DEBUG    | services.ozon_api:121 | Task 605566622 status=IN_PROCESS, waiting...
+2026-03-11 17:59:21.907 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"85", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:21.907 | DEBUG    | services.ozon_api:118 | Task 605566622 completed, 1 items returned
+2026-03-11 17:59:21.908 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для тела с церамидами'
+2026-03-11 17:59:23.909 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для рук увлажняющий' items=1
+2026-03-11 17:59:23.910 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для рук увлажняющий' items=['3179941439']
+2026-03-11 17:59:24.075 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566623"}
+2026-03-11 17:59:24.076 | DEBUG    | services.ozon_api:85 | Task created: 605566623
+2026-03-11 17:59:24.076 | DEBUG    | services.ozon_api:92 | Polling task 605566623
+2026-03-11 17:59:24.244 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:24.244 | DEBUG    | services.ozon_api:121 | Task 605566623 status=IN_PROCESS, waiting...
+2026-03-11 17:59:25.912 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:25.913 | DEBUG    | services.ozon_api:118 | Task 605566623 completed, 1 items returned
+2026-03-11 17:59:25.913 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для рук увлажняющий'
+2026-03-11 17:59:27.914 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для тела увлажняющий' items=1
+2026-03-11 17:59:27.915 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для тела увлажняющий' items=['3179941439']
+2026-03-11 17:59:28.087 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566625"}
+2026-03-11 17:59:28.088 | DEBUG    | services.ozon_api:85 | Task created: 605566625
+2026-03-11 17:59:28.088 | DEBUG    | services.ozon_api:92 | Polling task 605566625
+2026-03-11 17:59:28.251 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:28.251 | DEBUG    | services.ozon_api:121 | Task 605566625 status=IN_PROCESS, waiting...
+2026-03-11 17:59:29.921 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:29.921 | DEBUG    | services.ozon_api:118 | Task 605566625 completed, 1 items returned
+2026-03-11 17:59:29.922 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для тела увлажняющий'
+2026-03-11 17:59:31.923 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для тела питательный' items=1
+2026-03-11 17:59:31.923 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для тела питательный' items=['3179941439']
+2026-03-11 17:59:32.087 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566627"}
+2026-03-11 17:59:32.087 | DEBUG    | services.ozon_api:85 | Task created: 605566627
+2026-03-11 17:59:32.087 | DEBUG    | services.ozon_api:92 | Polling task 605566627
+2026-03-11 17:59:32.255 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:32.255 | DEBUG    | services.ozon_api:121 | Task 605566627 status=IN_PROCESS, waiting...
+2026-03-11 17:59:33.921 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3179941439", "name":"Крем увлажняющий с церамидами для рук и тела MYSENSIA (ex. SOKOLOVA cosmetics) 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-5/8440349333.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:33.921 | DEBUG    | services.ozon_api:118 | Task 605566627 completed, 1 items returned
+2026-03-11 17:59:33.921 | INFO     | services.ozon_client:36 | Got 1 results for query='крем для тела питательный'
+2026-03-11 17:59:35.923 | INFO     | services.ozon_client:32 | Fetching positions | query='эссенция для лица' items=1
+2026-03-11 17:59:35.923 | DEBUG    | services.ozon_api:56 | Creating search task | query='эссенция для лица' items=['3302811374']
+2026-03-11 17:59:36.085 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566628"}
+2026-03-11 17:59:36.085 | DEBUG    | services.ozon_api:85 | Task created: 605566628
+2026-03-11 17:59:36.086 | DEBUG    | services.ozon_api:92 | Polling task 605566628
+2026-03-11 17:59:36.257 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:36.258 | DEBUG    | services.ozon_api:121 | Task 605566628 status=IN_PROCESS, waiting...
+2026-03-11 17:59:37.922 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302811374", "name":"Эссенция GLOW 160мл MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-j/8656279543.jpg", "searchStatus":"NOT_FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":["IOS", "ANDROID", "SITE_MOBILE_SITE"], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:37.923 | DEBUG    | services.ozon_api:118 | Task 605566628 completed, 1 items returned
+2026-03-11 17:59:37.923 | INFO     | services.ozon_client:36 | Got 1 results for query='эссенция для лица'
+2026-03-11 17:59:39.924 | INFO     | services.ozon_client:32 | Fetching positions | query='молочко для лица' items=1
+2026-03-11 17:59:39.925 | DEBUG    | services.ozon_api:56 | Creating search task | query='молочко для лица' items=['3302811374']
+2026-03-11 17:59:40.112 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566629"}
+2026-03-11 17:59:40.112 | DEBUG    | services.ozon_api:85 | Task created: 605566629
+2026-03-11 17:59:40.113 | DEBUG    | services.ozon_api:92 | Polling task 605566629
+2026-03-11 17:59:40.383 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:40.383 | DEBUG    | services.ozon_api:121 | Task 605566629 status=IN_PROCESS, waiting...
+2026-03-11 17:59:42.049 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302811374", "name":"Эссенция GLOW 160мл MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-j/8656279543.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:42.050 | DEBUG    | services.ozon_api:118 | Task 605566629 completed, 1 items returned
+2026-03-11 17:59:42.050 | INFO     | services.ozon_client:36 | Got 1 results for query='молочко для лица'
+2026-03-11 17:59:44.051 | INFO     | services.ozon_client:32 | Fetching positions | query='лосьон для лица' items=1
+2026-03-11 17:59:44.052 | DEBUG    | services.ozon_api:56 | Creating search task | query='лосьон для лица' items=['3302811374']
+2026-03-11 17:59:44.218 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566630"}
+2026-03-11 17:59:44.219 | DEBUG    | services.ozon_api:85 | Task created: 605566630
+2026-03-11 17:59:44.219 | DEBUG    | services.ozon_api:92 | Polling task 605566630
+2026-03-11 17:59:44.383 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:44.384 | DEBUG    | services.ozon_api:121 | Task 605566630 status=IN_PROCESS, waiting...
+2026-03-11 17:59:46.047 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302811374", "name":"Эссенция GLOW 160мл MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-j/8656279543.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:46.047 | DEBUG    | services.ozon_api:118 | Task 605566630 completed, 1 items returned
+2026-03-11 17:59:46.047 | INFO     | services.ozon_client:36 | Got 1 results for query='лосьон для лица'
+2026-03-11 17:59:48.049 | INFO     | services.ozon_client:32 | Fetching positions | query='эссенция для лица антивозрастная' items=1
+2026-03-11 17:59:48.049 | DEBUG    | services.ozon_api:56 | Creating search task | query='эссенция для лица антивозрастная' items=['3302811374']
+2026-03-11 17:59:48.218 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566632"}
+2026-03-11 17:59:48.218 | DEBUG    | services.ozon_api:85 | Task created: 605566632
+2026-03-11 17:59:48.219 | DEBUG    | services.ozon_api:92 | Polling task 605566632
+2026-03-11 17:59:48.380 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:48.380 | DEBUG    | services.ozon_api:121 | Task 605566632 status=IN_PROCESS, waiting...
+2026-03-11 17:59:50.044 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302811374", "name":"Эссенция GLOW 160мл MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-j/8656279543.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"27", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:50.045 | DEBUG    | services.ozon_api:118 | Task 605566632 completed, 1 items returned
+2026-03-11 17:59:50.045 | INFO     | services.ozon_client:36 | Got 1 results for query='эссенция для лица антивозрастная'
+2026-03-11 17:59:52.047 | INFO     | services.ozon_client:32 | Fetching positions | query='эссенция восстанавливающая' items=1
+2026-03-11 17:59:52.047 | DEBUG    | services.ozon_api:56 | Creating search task | query='эссенция восстанавливающая' items=['3302811374']
+2026-03-11 17:59:52.217 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566634"}
+2026-03-11 17:59:52.217 | DEBUG    | services.ozon_api:85 | Task created: 605566634
+2026-03-11 17:59:52.218 | DEBUG    | services.ozon_api:92 | Polling task 605566634
+2026-03-11 17:59:52.380 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:52.381 | DEBUG    | services.ozon_api:121 | Task 605566634 status=IN_PROCESS, waiting...
+2026-03-11 17:59:54.047 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"3302811374", "name":"Эссенция GLOW 160мл MYSENSIA", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-j/8656279543.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"10", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:54.048 | DEBUG    | services.ozon_api:118 | Task 605566634 completed, 1 items returned
+2026-03-11 17:59:54.048 | INFO     | services.ozon_client:36 | Got 1 results for query='эссенция восстанавливающая'
+2026-03-11 17:59:56.049 | INFO     | services.ozon_client:32 | Fetching positions | query='тонер' items=1
+2026-03-11 17:59:56.049 | DEBUG    | services.ozon_api:56 | Creating search task | query='тонер' items=['2877587534']
+2026-03-11 17:59:56.212 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566635"}
+2026-03-11 17:59:56.213 | DEBUG    | services.ozon_api:85 | Task created: 605566635
+2026-03-11 17:59:56.213 | DEBUG    | services.ozon_api:92 | Polling task 605566635
+2026-03-11 17:59:56.378 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 17:59:56.378 | DEBUG    | services.ozon_api:121 | Task 605566635 status=IN_PROCESS, waiting...
+2026-03-11 17:59:58.043 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877587534", "name":"Тонер восстанавливающий с церамидами MYSENSIA (ex. Sokolova) 160мл для сухой чувствительной обезвоженной кожи", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-2/8024385926.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"572", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":false, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 17:59:58.043 | DEBUG    | services.ozon_api:118 | Task 605566635 completed, 1 items returned
+2026-03-11 17:59:58.043 | INFO     | services.ozon_client:36 | Got 1 results for query='тонер'
+2026-03-11 18:00:00.045 | INFO     | services.ozon_client:32 | Fetching positions | query='тонер для лица' items=1
+2026-03-11 18:00:00.045 | DEBUG    | services.ozon_api:56 | Creating search task | query='тонер для лица' items=['2877587534']
+2026-03-11 18:00:00.219 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566637"}
+2026-03-11 18:00:00.220 | DEBUG    | services.ozon_api:85 | Task created: 605566637
+2026-03-11 18:00:00.220 | DEBUG    | services.ozon_api:92 | Polling task 605566637
+2026-03-11 18:00:00.386 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:00.386 | DEBUG    | services.ozon_api:121 | Task 605566637 status=IN_PROCESS, waiting...
+2026-03-11 18:00:02.078 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877587534", "name":"Тонер восстанавливающий с церамидами MYSENSIA (ex. Sokolova) 160мл для сухой чувствительной обезвоженной кожи", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-2/8024385926.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":false, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:02.079 | DEBUG    | services.ozon_api:118 | Task 605566637 completed, 1 items returned
+2026-03-11 18:00:02.079 | INFO     | services.ozon_client:36 | Got 1 results for query='тонер для лица'
+2026-03-11 18:00:04.081 | INFO     | services.ozon_client:32 | Fetching positions | query='тонер для лица увлажняющий' items=1
+2026-03-11 18:00:04.081 | DEBUG    | services.ozon_api:56 | Creating search task | query='тонер для лица увлажняющий' items=['2877587534']
+2026-03-11 18:00:04.255 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605566760"}
+2026-03-11 18:00:04.255 | DEBUG    | services.ozon_api:85 | Task created: 605566760
+2026-03-11 18:00:04.255 | DEBUG    | services.ozon_api:92 | Polling task 605566760
+2026-03-11 18:00:04.421 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:04.421 | DEBUG    | services.ozon_api:121 | Task 605566760 status=IN_PROCESS, waiting...
+2026-03-11 18:00:06.087 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877587534", "name":"Тонер восстанавливающий с церамидами MYSENSIA (ex. Sokolova) 160мл для сухой чувствительной обезвоженной кожи", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-2/8024385926.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"882", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":false, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:06.087 | DEBUG    | services.ozon_api:118 | Task 605566760 completed, 1 items returned
+2026-03-11 18:00:06.087 | INFO     | services.ozon_client:36 | Got 1 results for query='тонер для лица увлажняющий'
+2026-03-11 18:00:08.089 | INFO     | services.ozon_client:32 | Fetching positions | query='тоник для лица' items=1
+2026-03-11 18:00:08.089 | DEBUG    | services.ozon_api:56 | Creating search task | query='тоник для лица' items=['2877587534']
+2026-03-11 18:00:08.256 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605567142"}
+2026-03-11 18:00:08.256 | DEBUG    | services.ozon_api:85 | Task created: 605567142
+2026-03-11 18:00:08.256 | DEBUG    | services.ozon_api:92 | Polling task 605567142
+2026-03-11 18:00:08.416 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:08.416 | DEBUG    | services.ozon_api:121 | Task 605567142 status=IN_PROCESS, waiting...
+2026-03-11 18:00:10.083 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877587534", "name":"Тонер восстанавливающий с церамидами MYSENSIA (ex. Sokolova) 160мл для сухой чувствительной обезвоженной кожи", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-2/8024385926.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":false, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:10.083 | DEBUG    | services.ozon_api:118 | Task 605567142 completed, 1 items returned
+2026-03-11 18:00:10.084 | INFO     | services.ozon_client:36 | Got 1 results for query='тоник для лица'
+2026-03-11 18:00:12.085 | INFO     | services.ozon_client:32 | Fetching positions | query='тоник для лица увлажняющий' items=1
+2026-03-11 18:00:12.085 | DEBUG    | services.ozon_api:56 | Creating search task | query='тоник для лица увлажняющий' items=['2877587534']
+2026-03-11 18:00:12.248 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605567504"}
+2026-03-11 18:00:12.248 | DEBUG    | services.ozon_api:85 | Task created: 605567504
+2026-03-11 18:00:12.249 | DEBUG    | services.ozon_api:92 | Polling task 605567504
+2026-03-11 18:00:12.414 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:12.414 | DEBUG    | services.ozon_api:121 | Task 605567504 status=IN_PROCESS, waiting...
+2026-03-11 18:00:14.080 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877587534", "name":"Тонер восстанавливающий с церамидами MYSENSIA (ex. Sokolova) 160мл для сухой чувствительной обезвоженной кожи", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-2/8024385926.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":false, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:14.080 | DEBUG    | services.ozon_api:118 | Task 605567504 completed, 1 items returned
+2026-03-11 18:00:14.080 | INFO     | services.ozon_client:36 | Got 1 results for query='тоник для лица увлажняющий'
+2026-03-11 18:00:16.082 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка сужающая' items=1
+2026-03-11 18:00:16.082 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка сужающая' items=['2877598652']
+2026-03-11 18:00:16.250 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605567824"}
+2026-03-11 18:00:16.251 | DEBUG    | services.ozon_api:85 | Task created: 605567824
+2026-03-11 18:00:16.251 | DEBUG    | services.ozon_api:92 | Polling task 605567824
+2026-03-11 18:00:16.408 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:16.409 | DEBUG    | services.ozon_api:121 | Task 605567824 status=IN_PROCESS, waiting...
+2026-03-11 18:00:18.074 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"34", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:18.075 | DEBUG    | services.ozon_api:118 | Task 605567824 completed, 1 items returned
+2026-03-11 18:00:18.075 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка сужающая'
+2026-03-11 18:00:20.076 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица восстанавливающая' items=1
+2026-03-11 18:00:20.077 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица восстанавливающая' items=['2877598652']
+2026-03-11 18:00:20.243 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568064"}
+2026-03-11 18:00:20.243 | DEBUG    | services.ozon_api:85 | Task created: 605568064
+2026-03-11 18:00:20.243 | DEBUG    | services.ozon_api:92 | Polling task 605568064
+2026-03-11 18:00:20.411 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:20.411 | DEBUG    | services.ozon_api:121 | Task 605568064 status=IN_PROCESS, waiting...
+2026-03-11 18:00:22.077 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:22.078 | DEBUG    | services.ozon_api:118 | Task 605568064 completed, 1 items returned
+2026-03-11 18:00:22.078 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица восстанавливающая'
+2026-03-11 18:00:24.079 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица очищающая' items=1
+2026-03-11 18:00:24.080 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица очищающая' items=['2877598652']
+2026-03-11 18:00:24.246 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568244"}
+2026-03-11 18:00:24.246 | DEBUG    | services.ozon_api:85 | Task created: 605568244
+2026-03-11 18:00:24.247 | DEBUG    | services.ozon_api:92 | Polling task 605568244
+2026-03-11 18:00:24.408 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:24.408 | DEBUG    | services.ozon_api:121 | Task 605568244 status=IN_PROCESS, waiting...
+2026-03-11 18:00:26.082 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"14", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:26.082 | DEBUG    | services.ozon_api:118 | Task 605568244 completed, 1 items returned
+2026-03-11 18:00:26.083 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица очищающая'
+2026-03-11 18:00:28.084 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица для проблемной кожи' items=1
+2026-03-11 18:00:28.086 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица для проблемной кожи' items=['2877598652']
+2026-03-11 18:00:28.253 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568448"}
+2026-03-11 18:00:28.254 | DEBUG    | services.ozon_api:85 | Task created: 605568448
+2026-03-11 18:00:28.254 | DEBUG    | services.ozon_api:92 | Polling task 605568448
+2026-03-11 18:00:28.416 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:28.416 | DEBUG    | services.ozon_api:121 | Task 605568448 status=IN_PROCESS, waiting...
+2026-03-11 18:00:30.084 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":true, "position":"58", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:30.084 | DEBUG    | services.ozon_api:118 | Task 605568448 completed, 1 items returned
+2026-03-11 18:00:30.084 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица для проблемной кожи'
+2026-03-11 18:00:32.086 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица от высыпаний' items=1
+2026-03-11 18:00:32.086 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица от высыпаний' items=['2877598652']
+2026-03-11 18:00:32.250 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568642"}
+2026-03-11 18:00:32.250 | DEBUG    | services.ozon_api:85 | Task created: 605568642
+2026-03-11 18:00:32.251 | DEBUG    | services.ozon_api:92 | Polling task 605568642
+2026-03-11 18:00:32.410 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:32.411 | DEBUG    | services.ozon_api:121 | Task 605568642 status=IN_PROCESS, waiting...
+2026-03-11 18:00:34.078 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2877598652", "name":"SALICIC ACID 2% сыворотка для лица ELEVEN TWELVE", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-c/8024410956.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:34.079 | DEBUG    | services.ozon_api:118 | Task 605568642 completed, 1 items returned
+2026-03-11 18:00:34.079 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица от высыпаний'
+2026-03-11 18:00:36.080 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для лица' items=1
+2026-03-11 18:00:36.081 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для лица' items=['1534948802']
+2026-03-11 18:00:36.252 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568737"}
+2026-03-11 18:00:36.252 | DEBUG    | services.ozon_api:85 | Task created: 605568737
+2026-03-11 18:00:36.252 | DEBUG    | services.ozon_api:92 | Polling task 605568737
+2026-03-11 18:00:36.419 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:36.419 | DEBUG    | services.ozon_api:121 | Task 605568737 status=IN_PROCESS, waiting...
+2026-03-11 18:00:38.084 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:38.084 | DEBUG    | services.ozon_api:118 | Task 605568737 completed, 1 items returned
+2026-03-11 18:00:38.085 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для лица'
+2026-03-11 18:00:40.086 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для лица восстанавливающий' items=1
+2026-03-11 18:00:40.086 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для лица восстанавливающий' items=['1534948802']
+2026-03-11 18:00:40.265 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568799"}
+2026-03-11 18:00:40.266 | DEBUG    | services.ozon_api:85 | Task created: 605568799
+2026-03-11 18:00:40.266 | DEBUG    | services.ozon_api:92 | Polling task 605568799
+2026-03-11 18:00:40.425 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:40.425 | DEBUG    | services.ozon_api:121 | Task 605568799 status=IN_PROCESS, waiting...
+2026-03-11 18:00:42.089 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"NOT_FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":["IOS", "ANDROID", "SITE_MOBILE_SITE"], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:42.090 | DEBUG    | services.ozon_api:118 | Task 605568799 completed, 1 items returned
+2026-03-11 18:00:42.090 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для лица восстанавливающий'
+2026-03-11 18:00:44.091 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица восстанавлиающая' items=1
+2026-03-11 18:00:44.091 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица восстанавлиающая' items=['1534948802']
+2026-03-11 18:00:44.265 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568895"}
+2026-03-11 18:00:44.265 | DEBUG    | services.ozon_api:85 | Task created: 605568895
+2026-03-11 18:00:44.265 | DEBUG    | services.ozon_api:92 | Polling task 605568895
+2026-03-11 18:00:44.429 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:44.430 | DEBUG    | services.ozon_api:121 | Task 605568895 status=IN_PROCESS, waiting...
+2026-03-11 18:00:46.095 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:46.095 | DEBUG    | services.ozon_api:118 | Task 605568895 completed, 1 items returned
+2026-03-11 18:00:46.096 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица восстанавлиающая'
+2026-03-11 18:00:48.097 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица антивозрастная' items=1
+2026-03-11 18:00:48.098 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица антивозрастная' items=['1534948802']
+2026-03-11 18:00:48.279 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605568961"}
+2026-03-11 18:00:48.279 | DEBUG    | services.ozon_api:85 | Task created: 605568961
+2026-03-11 18:00:48.279 | DEBUG    | services.ozon_api:92 | Polling task 605568961
+2026-03-11 18:00:48.457 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:48.458 | DEBUG    | services.ozon_api:121 | Task 605568961 status=IN_PROCESS, waiting...
+2026-03-11 18:00:50.124 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:50.124 | DEBUG    | services.ozon_api:118 | Task 605568961 completed, 1 items returned
+2026-03-11 18:00:50.124 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица антивозрастная'
+2026-03-11 18:00:52.126 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для лица увлажняющий' items=1
+2026-03-11 18:00:52.126 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для лица увлажняющий' items=['1534948802']
+2026-03-11 18:00:52.292 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605569042"}
+2026-03-11 18:00:52.292 | DEBUG    | services.ozon_api:85 | Task created: 605569042
+2026-03-11 18:00:52.292 | DEBUG    | services.ozon_api:92 | Polling task 605569042
+2026-03-11 18:00:52.474 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:52.475 | DEBUG    | services.ozon_api:121 | Task 605569042 status=IN_PROCESS, waiting...
+2026-03-11 18:00:54.139 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:54.139 | DEBUG    | services.ozon_api:118 | Task 605569042 completed, 1 items returned
+2026-03-11 18:00:54.140 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для лица увлажняющий'
+2026-03-11 18:00:56.141 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для лица увлажняющая' items=1
+2026-03-11 18:00:56.142 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для лица увлажняющая' items=['1534948802']
+2026-03-11 18:00:56.320 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605569126"}
+2026-03-11 18:00:56.320 | DEBUG    | services.ozon_api:85 | Task created: 605569126
+2026-03-11 18:00:56.320 | DEBUG    | services.ozon_api:92 | Polling task 605569126
+2026-03-11 18:00:56.482 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:00:56.483 | DEBUG    | services.ozon_api:121 | Task 605569126 status=IN_PROCESS, waiting...
+2026-03-11 18:00:58.149 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:00:58.149 | DEBUG    | services.ozon_api:118 | Task 605569126 completed, 1 items returned
+2026-03-11 18:00:58.150 | INFO     | services.ozon_client:36 | Got 1 results for query='сыворотка для лица увлажняющая'
+2026-03-11 18:01:00.151 | INFO     | services.ozon_client:32 | Fetching positions | query='сывротка для всех типов кожи' items=1
+2026-03-11 18:01:00.151 | DEBUG    | services.ozon_api:56 | Creating search task | query='сывротка для всех типов кожи' items=['1534948802']
+2026-03-11 18:01:00.321 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605569193"}
+2026-03-11 18:01:00.321 | DEBUG    | services.ozon_api:85 | Task created: 605569193
+2026-03-11 18:01:00.322 | DEBUG    | services.ozon_api:92 | Polling task 605569193
+2026-03-11 18:01:00.486 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:01:00.486 | DEBUG    | services.ozon_api:121 | Task 605569193 status=IN_PROCESS, waiting...
+2026-03-11 18:01:02.150 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"1534948802", "name":"Гель-сыворотка трипептид меди 0,2% SOKOLOVA cosmetics 30мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-3/7292866719.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:01:02.151 | DEBUG    | services.ozon_api:118 | Task 605569193 completed, 1 items returned
+2026-03-11 18:01:02.151 | INFO     | services.ozon_client:36 | Got 1 results for query='сывротка для всех типов кожи'
+2026-03-11 18:01:04.153 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для душа' items=1
+2026-03-11 18:01:04.153 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для душа' items=['2199167907']
+2026-03-11 18:01:04.319 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605569348"}
+2026-03-11 18:01:04.319 | DEBUG    | services.ozon_api:85 | Task created: 605569348
+2026-03-11 18:01:04.319 | DEBUG    | services.ozon_api:92 | Polling task 605569348
+2026-03-11 18:01:04.482 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:01:04.482 | DEBUG    | services.ozon_api:121 | Task 605569348 status=IN_PROCESS, waiting...
+2026-03-11 18:01:06.188 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2199167907", "name":"Гель для душа EXFOLIANT увлажняющий, очищающий, противовоспалительный с салициловой, молочной, гликолевой кислотой и пантенолом ELEVEN TWELVE 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/7603860683.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:01:06.188 | DEBUG    | services.ozon_api:118 | Task 605569348 completed, 1 items returned
+2026-03-11 18:01:06.188 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для душа'
+2026-03-11 18:01:08.189 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для душа женский' items=1
+2026-03-11 18:01:08.190 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для душа женский' items=['2199167907']
+2026-03-11 18:01:08.362 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605569620"}
+2026-03-11 18:01:08.362 | DEBUG    | services.ozon_api:85 | Task created: 605569620
+2026-03-11 18:01:08.362 | DEBUG    | services.ozon_api:92 | Polling task 605569620
+2026-03-11 18:01:08.530 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:01:08.531 | DEBUG    | services.ozon_api:121 | Task 605569620 status=IN_PROCESS, waiting...
+2026-03-11 18:01:10.196 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2199167907", "name":"Гель для душа EXFOLIANT увлажняющий, очищающий, противовоспалительный с салициловой, молочной, гликолевой кислотой и пантенолом ELEVEN TWELVE 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/7603860683.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:01:10.197 | DEBUG    | services.ozon_api:118 | Task 605569620 completed, 1 items returned
+2026-03-11 18:01:10.197 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для душа женский'
+2026-03-11 18:01:12.198 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для душа без сульфатов' items=1
+2026-03-11 18:01:12.198 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для душа без сульфатов' items=['2199167907']
+2026-03-11 18:01:12.367 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605570004"}
+2026-03-11 18:01:12.367 | DEBUG    | services.ozon_api:85 | Task created: 605570004
+2026-03-11 18:01:12.367 | DEBUG    | services.ozon_api:92 | Polling task 605570004
+2026-03-11 18:01:12.528 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:01:12.528 | DEBUG    | services.ozon_api:121 | Task 605570004 status=IN_PROCESS, waiting...
+2026-03-11 18:01:14.194 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2199167907", "name":"Гель для душа EXFOLIANT увлажняющий, очищающий, противовоспалительный с салициловой, молочной, гликолевой кислотой и пантенолом ELEVEN TWELVE 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/7603860683.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:01:14.194 | DEBUG    | services.ozon_api:118 | Task 605570004 completed, 1 items returned
+2026-03-11 18:01:14.195 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для душа без сульфатов'
+2026-03-11 18:01:16.196 | INFO     | services.ozon_client:32 | Fetching positions | query='гель для душа увлажняющий' items=1
+2026-03-11 18:01:16.196 | DEBUG    | services.ozon_api:56 | Creating search task | query='гель для душа увлажняющий' items=['2199167907']
+2026-03-11 18:01:16.358 | DEBUG    | services.ozon_api:67 | v2 raw response: {"id":"605570265"}
+2026-03-11 18:01:16.359 | DEBUG    | services.ozon_api:85 | Task created: 605570265
+2026-03-11 18:01:16.359 | DEBUG    | services.ozon_api:92 | Polling task 605570265
+2026-03-11 18:01:16.527 | DEBUG    | services.ozon_api:105 | Poll #1 response: {"resp":{"items":[], "rescoreWindow":0, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"IN_PROCESS"}
+2026-03-11 18:01:16.528 | DEBUG    | services.ozon_api:121 | Task 605570265 status=IN_PROCESS, waiting...
+2026-03-11 18:01:18.193 | DEBUG    | services.ozon_api:105 | Poll #2 response: {"resp":{"items":[{"itemId":"2199167907", "name":"Гель для душа EXFOLIANT увлажняющий, очищающий, противовоспалительный с салициловой, молочной, гликолевой кислотой и пантенолом ELEVEN TWELVE 250 мл", "imageUrl":"https://cdn1.ozone.ru/s3/multimedia-1-b/7603860683.jpg", "searchStatus":"FOUND", "isPositionWithinRescoreWindow":false, "position":"0", "isCollapsed":false, "collapsingItemId":"0", "unavailableDevices":[], "indexingErrors":[], "indexingErrorType":"NO_ERROR", "isTraforetto":false, "searchPromotionBoost":0, "searchPromotionEnabled":false, "isInTraforettoCampaign":true, "isInSearchPromoCampaign":false, "isDiscounted":false}], "rescoreWindow":1000, "predictedCategory":"", "status":"IN_PROCESS"}, "status":"COMPLETED"}
+2026-03-11 18:01:18.193 | DEBUG    | services.ozon_api:118 | Task 605570265 completed, 1 items returned
+2026-03-11 18:01:18.194 | INFO     | services.ozon_client:36 | Got 1 results for query='гель для душа увлажняющий'
+2026-03-11 18:01:18.194 | INFO     | services.ozon_client:27 | Closing OzonSearchClient session
+2026-03-11 18:01:18.194 | DEBUG    | services.browser:119 | Closing browser context
+2026-03-11 18:01:18.247 | INFO     | services.positions_sheet:37 | Inserting new column D into sheet 'Позиции' with 75 results
+2026-03-11 18:01:19.204 | DEBUG    | services.positions_sheet:52 | Column D inserted, writing header and values
+2026-03-11 18:01:19.582 | DEBUG    | services.positions_sheet:57 | Header set to '11.03 18:01'
+2026-03-11 18:01:19.997 | INFO     | services.positions_sheet:66 | Written 75 position values to column D
+2026-03-11 18:01:19.997 | INFO     | __main__:51 | === Done ===
