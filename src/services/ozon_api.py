@@ -17,13 +17,16 @@ _LOCATION = {
 _LOCATION_UID = "0c5b2444-70a0-4932-980c-b4dc0d3f02b5"
 _RATE_LIMIT_RETRY_DELAYS = [10, 20, 30, 40, 50]
 
-_JS_FETCH = """([url, headers, body]) =>
-    fetch(url, {
+_JS_FETCH = """([url, headers, body]) => {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 30000);
+    return fetch(url, {
         method: 'POST',
         headers: {'Content-Type': 'application/json', ...headers},
         body: JSON.stringify(body),
-    }).then(r => r.text())
-"""
+        signal: controller.signal,
+    }).then(r => r.text()).finally(() => clearTimeout(timer));
+}"""
 
 
 def _headers(company_id: str) -> dict:
@@ -35,12 +38,23 @@ def _headers(company_id: str) -> dict:
     }
 
 
+async def _log_external_ip(page: Page) -> None:
+    try:
+        ip = await page.evaluate(
+            "() => fetch('https://api.ipify.org?format=text').then(r => r.text())",
+        )
+        logger.info(f"External IP (via proxy): {ip.strip()}")
+    except Exception as e:
+        logger.warning(f"Could not detect external IP: {e}")
+
+
 async def navigate_to_search_validator(page: Page) -> None:
     url = f"{_BASE_URL}/app/analytics-search/search-results/validator"
     logger.debug(f"Navigating to {url}")
     asyncio.ensure_future(page.goto(url, wait_until="commit"))
     await page.wait_for_url("**/app/**", timeout=30_000)
     logger.debug(f"Page ready: {page.url}")
+    await _log_external_ip(page)
 
 
 async def create_search_task(page: Page, company_id: str, query: str, item_ids: list[str]) -> str:
