@@ -64,7 +64,7 @@ async def create_search_task(page: Page, company_id: str, query: str, item_ids: 
             _JS_FETCH,
             [f"{_BASE_URL}/api/validator-service/v2/get_search_stats", _headers(company_id), payload],
         )
-        logger.debug(f"v2 raw response: {raw}")
+        logger.debug(f"v2 raw response: {raw[:300]!r}")
 
         if not raw.strip() or raw.lstrip().startswith("<"):
             logger.warning("Got HTML response (antibot), waiting for redirect back to /app/")
@@ -102,7 +102,7 @@ async def poll_search_results(page: Page, company_id: str, task_id: str) -> dict
             ],
         )
         poll_count += 1
-        logger.debug(f"Poll #{poll_count} response: {raw}")
+        logger.debug(f"Poll #{poll_count} response: {raw[:300]!r}")
 
         if not raw.strip() or raw.lstrip().startswith("<"):
             raise UnexpectedResponseError("Got HTML response during polling (session lost)", raw=raw)
@@ -117,6 +117,9 @@ async def poll_search_results(page: Page, company_id: str, task_id: str) -> dict
             items = data["resp"]["items"]
             logger.debug(f"Task {task_id} completed, {len(items)} items returned")
             return {item["itemId"]: int(item["position"]) for item in items}
+
+        if status == "FAILED":
+            raise UnexpectedResponseError(f"Task {task_id} failed", raw=raw)
 
         logger.debug(f"Task {task_id} status={status}, waiting...")
         await asyncio.sleep(1.5)

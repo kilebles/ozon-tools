@@ -9,15 +9,16 @@ from services.ozon_api import navigate_to_search_validator, create_search_task, 
 
 
 class OzonSearchClient:
-    def __init__(self, company_id: str, cookies_path: Path, headless: bool = True) -> None:
+    def __init__(self, company_id: str, cookies_path: Path, headless: bool = True, proxy_path: Path | None = None) -> None:
         self._company_id = company_id
         self._cookies_path = cookies_path
         self._headless = headless
+        self._proxy_path = proxy_path
         self._page: Page | None = None
 
     async def __aenter__(self) -> "OzonSearchClient":
         logger.info("Starting OzonSearchClient session")
-        self._ctx_manager = ozon_page(self._cookies_path, self._headless)
+        self._ctx_manager = ozon_page(self._cookies_path, self._headless, self._proxy_path)
         self._page = await self._ctx_manager.__aenter__()
         await navigate_to_search_validator(self._page)
         logger.info("Session ready")

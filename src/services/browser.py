@@ -63,10 +63,29 @@ def _load_cookies(cookies_path: Path) -> list[dict]:
     return result
 
 
-async def _launch_context(p: Playwright, headless: bool) -> BrowserContext:
+def _parse_proxy(proxy_path: Path) -> dict | None:
+    if not proxy_path.exists():
+        return None
+    line = proxy_path.read_text().strip()
+    if not line:
+        return None
+    parts = line.split(":")
+    if len(parts) != 4:
+        logger.warning(f"Invalid proxy format in {proxy_path}, expected host:port:user:password")
+        return None
+    host, port, user, password = parts
+    return {
+        "server": f"http://{host}:{port}",
+        "username": user,
+        "password": password,
+    }
+
+
+async def _launch_context(p: Playwright, headless: bool, proxy_path: Path | None = None) -> BrowserContext:
     user_data_dir = Path("browser_data")
     user_data_dir.mkdir(exist_ok=True)
-    logger.debug(f"Launching Chromium | headless={headless} user_data_dir={user_data_dir}")
+    proxy = _parse_proxy(proxy_path) if proxy_path else None
+    logger.debug(f"Launching Chromium | headless={headless} user_data_dir={user_data_dir} proxy={'yes' if proxy else 'no'}")
     ctx = await p.chromium.launch_persistent_context(
         user_data_dir=str(user_data_dir),
         headless=headless,
@@ -82,6 +101,7 @@ async def _launch_context(p: Playwright, headless: bool) -> BrowserContext:
             "Chrome/131.0.0.0 Safari/537.36"
         ),
         args=_CHROMIUM_ARGS,
+        proxy=proxy,
     )
     logger.debug("Browser context launched")
     return ctx
@@ -106,10 +126,10 @@ async def _new_page(ctx: BrowserContext) -> Page:
 
 
 @asynccontextmanager
-async def ozon_page(cookies_path: Path, headless: bool = True):
+async def ozon_page(cookies_path: Path, headless: bool = True, proxy_path: Path | None = None):
     """Context manager that yields an authenticated Ozon seller page."""
     async with async_playwright() as p:
-        ctx = await _launch_context(p, headless)
+        ctx = await _launch_context(p, headless, proxy_path)
         await ctx.add_cookies(_load_cookies(cookies_path))
         page = await _new_page(ctx)
         logger.debug("Browser ready with cookies applied")

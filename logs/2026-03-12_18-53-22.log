@@ -1,0 +1,372 @@
+2026-03-12 18:53:22.556 | INFO     | __main__:17 | === Starting position check ===
+2026-03-12 18:53:22.557 | INFO     | __main__:19 | Connecting to Google Sheets
+2026-03-12 18:53:23.959 | DEBUG    | services.positions_sheet:10 | Reading search tasks from sheet 'Позиции'
+2026-03-12 18:53:24.347 | DEBUG    | services.positions_sheet:25 | Row 2: item_id=2926807248 name='крем лифтинг-эффект'
+2026-03-12 18:53:24.347 | DEBUG    | services.positions_sheet:30 | Row 3: task item_id=2926807248 query='крем для шеи'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 4: task item_id=2926807248 query='крем лифтинг-эффект'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 5: task item_id=2926807248 query='крем от колец венеры'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 6: task item_id=2926807248 query='крем антивозрастной'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 7: task item_id=2926807248 query='уходовый крем антивозрастной'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:25 | Row 8: item_id=3179832255 name='сыворотка вокруг глаз'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 9: task item_id=3179832255 query='сыворотка для зоны вокруг глаз'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 10: task item_id=3179832255 query='сыворотка для век увлажняющая'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 11: task item_id=3179832255 query='сыворотка от мимических морщин'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 12: task item_id=3179832255 query='антивозрастная сыворотка для зоны вокруг глаз'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 13: task item_id=3179832255 query='сыворотка от темных кругов'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:25 | Row 14: item_id=3302831485 name='сыворотка антивозрастная'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 15: task item_id=3302831485 query='сыворотка антивозрастная'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 16: task item_id=3302831485 query='сыворотка омолаживающая'
+2026-03-12 18:53:24.348 | DEBUG    | services.positions_sheet:30 | Row 17: task item_id=3302831485 query='сыворотка омолаживающая с ретинолом'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 18: task item_id=3302831485 query='сыворотка против пигментации'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 19: task item_id=3302831485 query='сыворотка от акне'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 20: task item_id=3302831485 query='сывротка для сужения пор'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 21: task item_id=3302831485 query='уход для жирной кожи'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 22: task item_id=3302831485 query='сыворотка для проблемной кожи'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 23: task item_id=3302831485 query='уход для проблемной кожи'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:25 | Row 24: item_id=3484987706 name='сыворотка с витамином с'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 25: task item_id=3484987706 query='сыворотка с витамином с'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 26: task item_id=3484987706 query='сыворотка для сияния лица'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 27: task item_id=3484987706 query='сыворотка для упругости кожи'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 28: task item_id=3484987706 query='сыворотка для лица на лето'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 29: task item_id=3484987706 query='сыворотка для лица'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:25 | Row 30: item_id=2877612654 name='крем увлажняющий'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 31: task item_id=2877612654 query='крем для лица'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 32: task item_id=2877612654 query='крем для лица увлажняющий'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 33: task item_id=2877612654 query='крем для сухой кожи'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 34: task item_id=2877612654 query='крем для лица с ниацинамидами'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 35: task item_id=2877612654 query='крем для лица восстанавливающий'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:25 | Row 36: item_id=2104059885 name='пенка для умывания'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 37: task item_id=2104059885 query='пенка для умывания'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 38: task item_id=2104059885 query='пенка для лица'
+2026-03-12 18:53:24.349 | DEBUG    | services.positions_sheet:30 | Row 39: task item_id=2104059885 query='пенка для жирной кожи'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 40: task item_id=2104059885 query='пенка очищающая'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 41: task item_id=2104059885 query='пенка для проблемной кожи'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:25 | Row 42: item_id=3397872813 name='крем для лица восстанавливающий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 43: task item_id=3397872813 query='крем для лица'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 44: task item_id=3397872813 query='крем для лица восстанавливающий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 45: task item_id=3397872813 query='крем для лица увлажняющий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 46: task item_id=3397872813 query='крем для лица с церамидами'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 47: task item_id=3397872813 query='крем для лица питающий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 48: task item_id=3397872813 query='крем для лица для проблемной кожи'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:25 | Row 49: item_id=3179941439 name='крем увлажняющий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 50: task item_id=3179941439 query='крем для рук'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 51: task item_id=3179941439 query='крем для тела'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 52: task item_id=3179941439 query='крем для тела и рук'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 53: task item_id=3179941439 query='крем для тела с церамидами'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 54: task item_id=3179941439 query='крем для рук увлажняющий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 55: task item_id=3179941439 query='крем для тела увлажняющий'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:30 | Row 56: task item_id=3179941439 query='крем для тела питательный'
+2026-03-12 18:53:24.350 | DEBUG    | services.positions_sheet:25 | Row 57: item_id=3302811374 name='эссенция'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 58: task item_id=3302811374 query='эссенция для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 59: task item_id=3302811374 query='молочко для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 60: task item_id=3302811374 query='лосьон для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 61: task item_id=3302811374 query='эссенция для лица антивозрастная'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 62: task item_id=3302811374 query='эссенция восстанавливающая'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:25 | Row 63: item_id=2877587534 name='тонер'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 64: task item_id=2877587534 query='тонер'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 65: task item_id=2877587534 query='тонер для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 66: task item_id=2877587534 query='тонер для лица увлажняющий'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 67: task item_id=2877587534 query='тоник для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 68: task item_id=2877587534 query='тоник для лица увлажняющий'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:25 | Row 69: item_id=2877598652 name='сыворотка для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 70: task item_id=2877598652 query='сыворотка для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 71: task item_id=2877598652 query='сыворотка сужающая'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 72: task item_id=2877598652 query='сыворотка для лица восстанавливающая'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 73: task item_id=2877598652 query='сыворотка для лица очищающая'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 74: task item_id=2877598652 query='сыворотка для лица для проблемной кожи'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 75: task item_id=2877598652 query='сыворотка для лица от высыпаний'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:25 | Row 76: item_id=1534948802 name='гель-сыворотка'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 77: task item_id=1534948802 query='гель для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 78: task item_id=1534948802 query='сыворотка для лица'
+2026-03-12 18:53:24.351 | DEBUG    | services.positions_sheet:30 | Row 79: task item_id=1534948802 query='гель для лица восстанавливающий'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 80: task item_id=1534948802 query='сыворотка для лица восстанавлиающая'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 81: task item_id=1534948802 query='сыворотка для лица антивозрастная'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 82: task item_id=1534948802 query='гель для лица увлажняющий'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 83: task item_id=1534948802 query='сыворотка для лица увлажняющая'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 84: task item_id=1534948802 query='сывротка для всех типов кожи'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:25 | Row 85: item_id=2199167907 name='гель для душа'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 86: task item_id=2199167907 query='гель для душа'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 87: task item_id=2199167907 query='гель для душа женский'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 88: task item_id=2199167907 query='гель для душа без сульфатов'
+2026-03-12 18:53:24.352 | DEBUG    | services.positions_sheet:30 | Row 89: task item_id=2199167907 query='гель для душа увлажняющий'
+2026-03-12 18:53:24.352 | INFO     | services.positions_sheet:32 | Loaded 75 search tasks from sheet 'Позиции'
+2026-03-12 18:53:24.352 | INFO     | __main__:28 | Unique queries to fetch: 70
+2026-03-12 18:53:24.352 | INFO     | services.ozon_client:19 | Starting OzonSearchClient session
+2026-03-12 18:53:24.730 | DEBUG    | services.browser:69 | Launching Chromium | headless=True user_data_dir=browser_data
+2026-03-12 18:53:25.164 | DEBUG    | services.browser:86 | Browser context launched
+2026-03-12 18:53:25.165 | DEBUG    | services.browser:41 | Loading cookies from cookies.json
+2026-03-12 18:53:25.165 | DEBUG    | services.browser:62 | Loaded 14 cookies
+2026-03-12 18:53:25.202 | DEBUG    | services.browser:104 | New stealth page created
+2026-03-12 18:53:25.202 | DEBUG    | services.browser:115 | Browser ready with cookies applied
+2026-03-12 18:53:25.202 | DEBUG    | services.ozon_api:40 | Navigating to https://seller.ozon.ru/app/analytics-search/search-results/validator
+2026-03-12 18:53:26.146 | DEBUG    | services.ozon_api:43 | Page ready: https://seller.ozon.ru/app/analytics-search/search-results/validator?__rr=1
+2026-03-12 18:53:26.146 | INFO     | services.ozon_client:23 | Session ready
+2026-03-12 18:53:26.146 | INFO     | services.ozon_client:32 | Fetching positions | query='крем для шеи' items=1
+2026-03-12 18:53:26.146 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем для шеи' items=['2926807248']
+2026-03-12 18:53:26.315 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 18:53:26.315 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:53:26.317 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 18:53:36.486 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 18:53:36.486 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:53:36.489 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 18:53:56.664 | DEBUG    | services.ozon_api:67 | v2 raw response length: 100089
+2026-03-12 18:53:56.664 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:53:56.668 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 18:54:27.312 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99917
+2026-03-12 18:54:27.312 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:54:27.316 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 18:55:07.977 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 18:55:07.978 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:55:07.982 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 18:55:58.599 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 18:55:58.599 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:55:58.603 | ERROR    | services.ozon_client:39 | API error for query='крем для шеи': Too many requests — all retries exhausted | raw=
+2026-03-12 18:55:58.603 | ERROR    | __main__:42 | Skipping query='крем для шеи': Too many requests — all retries exhausted
+2026-03-12 18:56:00.604 | INFO     | services.ozon_client:32 | Fetching positions | query='крем лифтинг-эффект' items=1
+2026-03-12 18:56:00.605 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем лифтинг-эффект' items=['2926807248']
+2026-03-12 18:56:00.759 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 18:56:00.759 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:56:00.762 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 18:56:10.911 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 18:56:10.912 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:56:10.915 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 18:56:31.081 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:56:31.082 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:56:31.085 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 18:57:01.797 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 18:57:01.799 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:57:01.802 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 18:57:42.446 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:57:42.447 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:57:42.451 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 18:58:33.054 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:58:33.055 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:58:33.058 | ERROR    | services.ozon_client:39 | API error for query='крем лифтинг-эффект': Too many requests — all retries exhausted | raw=
+2026-03-12 18:58:33.058 | ERROR    | __main__:42 | Skipping query='крем лифтинг-эффект': Too many requests — all retries exhausted
+2026-03-12 18:58:35.060 | INFO     | services.ozon_client:32 | Fetching positions | query='крем от колец венеры' items=1
+2026-03-12 18:58:35.060 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем от колец венеры' items=['2926807248']
+2026-03-12 18:58:35.221 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:58:35.222 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:58:35.225 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 18:58:45.372 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:58:45.373 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:58:45.376 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 18:59:05.524 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 18:59:05.525 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:59:05.529 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 18:59:36.138 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 18:59:36.139 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 18:59:36.143 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:00:16.782 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:00:16.783 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:00:16.785 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:01:07.410 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:01:07.410 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:01:07.414 | ERROR    | services.ozon_client:39 | API error for query='крем от колец венеры': Too many requests — all retries exhausted | raw=
+2026-03-12 19:01:07.414 | ERROR    | __main__:42 | Skipping query='крем от колец венеры': Too many requests — all retries exhausted
+2026-03-12 19:01:09.415 | INFO     | services.ozon_client:32 | Fetching positions | query='крем антивозрастной' items=1
+2026-03-12 19:01:09.415 | DEBUG    | services.ozon_api:56 | Creating search task | query='крем антивозрастной' items=['2926807248']
+2026-03-12 19:01:09.563 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:01:09.564 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:01:09.566 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:01:19.713 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:01:19.713 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:01:19.718 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:01:39.867 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:01:39.868 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:01:39.871 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:02:10.567 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:02:10.567 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:02:10.571 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:02:51.213 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:02:51.214 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:02:51.218 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:03:41.842 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:03:41.844 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:03:41.848 | ERROR    | services.ozon_client:39 | API error for query='крем антивозрастной': Too many requests — all retries exhausted | raw=
+2026-03-12 19:03:41.848 | ERROR    | __main__:42 | Skipping query='крем антивозрастной': Too many requests — all retries exhausted
+2026-03-12 19:03:43.849 | INFO     | services.ozon_client:32 | Fetching positions | query='уходовый крем антивозрастной' items=1
+2026-03-12 19:03:43.850 | DEBUG    | services.ozon_api:56 | Creating search task | query='уходовый крем антивозрастной' items=['2926807248']
+2026-03-12 19:03:44.002 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:03:44.002 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:03:44.006 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:03:54.153 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:03:54.155 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:03:54.157 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:04:14.313 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:04:14.313 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:04:14.317 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:04:44.922 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:04:44.922 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:04:44.924 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:05:25.578 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:05:25.580 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:05:25.583 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:06:16.199 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:06:16.200 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:06:16.204 | ERROR    | services.ozon_client:39 | API error for query='уходовый крем антивозрастной': Too many requests — all retries exhausted | raw=
+2026-03-12 19:06:16.204 | ERROR    | __main__:42 | Skipping query='уходовый крем антивозрастной': Too many requests — all retries exhausted
+2026-03-12 19:06:18.206 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для зоны вокруг глаз' items=1
+2026-03-12 19:06:18.206 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для зоны вокруг глаз' items=['3179832255']
+2026-03-12 19:06:18.356 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:06:18.356 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:06:18.360 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:06:28.505 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:06:28.505 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:06:28.507 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:06:48.655 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:06:48.655 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:06:48.659 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:07:19.391 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:07:19.392 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:07:19.396 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:08:00.000 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:08:00.000 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:08:00.002 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:08:50.625 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:08:50.625 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:08:50.629 | ERROR    | services.ozon_client:39 | API error for query='сыворотка для зоны вокруг глаз': Too many requests — all retries exhausted | raw=
+2026-03-12 19:08:50.629 | ERROR    | __main__:42 | Skipping query='сыворотка для зоны вокруг глаз': Too many requests — all retries exhausted
+2026-03-12 19:08:52.631 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для век увлажняющая' items=1
+2026-03-12 19:08:52.631 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для век увлажняющая' items=['3179832255']
+2026-03-12 19:08:52.777 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:08:52.778 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:08:52.780 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:09:02.934 | DEBUG    | services.ozon_api:67 | v2 raw response length: 100629
+2026-03-12 19:09:02.935 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:09:02.939 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:09:23.087 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:09:23.087 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:09:23.091 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:09:53.815 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:09:53.815 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:09:53.817 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:10:34.456 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:10:34.457 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:10:34.461 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:11:25.189 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:11:25.190 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:11:25.192 | ERROR    | services.ozon_client:39 | API error for query='сыворотка для век увлажняющая': Too many requests — all retries exhausted | raw=
+2026-03-12 19:11:25.192 | ERROR    | __main__:42 | Skipping query='сыворотка для век увлажняющая': Too many requests — all retries exhausted
+2026-03-12 19:11:27.193 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка от мимических морщин' items=1
+2026-03-12 19:11:27.194 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка от мимических морщин' items=['3179832255']
+2026-03-12 19:11:27.362 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:11:27.362 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:11:27.366 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:11:37.532 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:11:37.532 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:11:37.535 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:11:57.700 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:11:57.700 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:11:57.705 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:12:28.317 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:12:28.318 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:12:28.322 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:13:08.926 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:13:08.927 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:13:08.930 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:13:59.554 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:13:59.555 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:13:59.559 | ERROR    | services.ozon_client:39 | API error for query='сыворотка от мимических морщин': Too many requests — all retries exhausted | raw=
+2026-03-12 19:13:59.560 | ERROR    | __main__:42 | Skipping query='сыворотка от мимических морщин': Too many requests — all retries exhausted
+2026-03-12 19:14:01.560 | INFO     | services.ozon_client:32 | Fetching positions | query='антивозрастная сыворотка для зоны вокруг глаз' items=1
+2026-03-12 19:14:01.560 | DEBUG    | services.ozon_api:56 | Creating search task | query='антивозрастная сыворотка для зоны вокруг глаз' items=['3179832255']
+2026-03-12 19:14:01.706 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:14:01.707 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:14:01.710 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:14:11.857 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:14:11.858 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:14:11.860 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:14:32.021 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:14:32.021 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:14:32.025 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:15:02.729 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:15:02.731 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:15:02.735 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:15:43.434 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:15:43.435 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:15:43.439 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:16:34.248 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:16:34.249 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:16:34.253 | ERROR    | services.ozon_client:39 | API error for query='антивозрастная сыворотка для зоны вокруг глаз': Too many requests — all retries exhausted | raw=
+2026-03-12 19:16:34.253 | ERROR    | __main__:42 | Skipping query='антивозрастная сыворотка для зоны вокруг глаз': Too many requests — all retries exhausted
+2026-03-12 19:16:36.255 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка от темных кругов' items=1
+2026-03-12 19:16:36.255 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка от темных кругов' items=['3179832255']
+2026-03-12 19:16:36.434 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99833
+2026-03-12 19:16:36.435 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:16:36.437 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:16:46.631 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99805
+2026-03-12 19:16:46.632 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:16:46.635 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:17:06.806 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:17:06.807 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:17:06.810 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:17:37.424 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:17:37.425 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:17:37.427 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:18:18.031 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:18:18.032 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:18:18.035 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:19:08.773 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:19:08.774 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:19:08.778 | ERROR    | services.ozon_client:39 | API error for query='сыворотка от темных кругов': Too many requests — all retries exhausted | raw=
+2026-03-12 19:19:08.778 | ERROR    | __main__:42 | Skipping query='сыворотка от темных кругов': Too many requests — all retries exhausted
+2026-03-12 19:19:10.780 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка антивозрастная' items=1
+2026-03-12 19:19:10.780 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка антивозрастная' items=['3302831485']
+2026-03-12 19:19:11.076 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:19:11.077 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:19:11.080 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:19:21.380 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:19:21.380 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:19:21.384 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:19:41.684 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:19:41.685 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:19:41.689 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:20:12.415 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:20:12.416 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:20:12.418 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:20:53.036 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:20:53.038 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:20:53.043 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:21:43.648 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:21:43.650 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:21:43.653 | ERROR    | services.ozon_client:39 | API error for query='сыворотка антивозрастная': Too many requests — all retries exhausted | raw=
+2026-03-12 19:21:43.654 | ERROR    | __main__:42 | Skipping query='сыворотка антивозрастная': Too many requests — all retries exhausted
+2026-03-12 19:21:45.655 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка омолаживающая' items=1
+2026-03-12 19:21:45.655 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка омолаживающая' items=['3302831485']
+2026-03-12 19:21:45.795 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99605
+2026-03-12 19:21:45.795 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:21:45.798 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:21:55.942 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:21:55.942 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:21:55.944 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:22:16.081 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:22:16.081 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:22:16.082 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:22:46.705 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:22:46.706 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:22:46.709 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:23:27.342 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:23:27.343 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:23:27.346 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:24:17.975 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:24:17.976 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:24:17.979 | ERROR    | services.ozon_client:39 | API error for query='сыворотка омолаживающая': Too many requests — all retries exhausted | raw=
+2026-03-12 19:24:17.979 | ERROR    | __main__:42 | Skipping query='сыворотка омолаживающая': Too many requests — all retries exhausted
+2026-03-12 19:24:19.980 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка омолаживающая с ретинолом' items=1
+2026-03-12 19:24:19.980 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка омолаживающая с ретинолом' items=['3302831485']
+2026-03-12 19:24:20.126 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:24:20.127 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:24:20.131 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:24:30.293 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:24:30.294 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:24:30.297 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:24:50.448 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99833
+2026-03-12 19:24:50.448 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:24:50.451 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)
+2026-03-12 19:25:21.181 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99661
+2026-03-12 19:25:21.182 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:25:21.185 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:26:01.808 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99633
+2026-03-12 19:26:01.809 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:26:01.812 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)

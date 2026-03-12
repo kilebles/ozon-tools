@@ -32,6 +32,7 @@ async def main() -> None:
     async with OzonSearchClient(
         company_id=settings.company_id,
         cookies_path=settings.cookies_path,
+        proxy_path=settings.proxy_path,
     ) as client:
         for i, (query, item_ids) in enumerate(query_to_items.items()):
             if i > 0:

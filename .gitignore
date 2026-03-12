@@ -14,3 +14,4 @@ wheels/
 credentials.json
 cookies.json
 browser_data/
+proxy.txt
