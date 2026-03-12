@@ -535,3 +535,21 @@
 2026-03-12 19:45:59.845 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99805
 2026-03-12 19:45:59.846 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
 2026-03-12 19:45:59.850 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 40s (attempt 4/5)
+2026-03-12 19:46:40.692 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99689
+2026-03-12 19:46:40.692 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:46:40.696 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 50s (attempt 5/5)
+2026-03-12 19:47:31.404 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:47:31.405 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:47:31.410 | ERROR    | services.ozon_client:39 | API error for query='сыворотка для сияния лица': Too many requests — all retries exhausted | raw=
+2026-03-12 19:47:31.410 | ERROR    | __main__:42 | Skipping query='сыворотка для сияния лица': Too many requests — all retries exhausted
+2026-03-12 19:47:33.411 | INFO     | services.ozon_client:32 | Fetching positions | query='сыворотка для упругости кожи' items=1
+2026-03-12 19:47:33.412 | DEBUG    | services.ozon_api:56 | Creating search task | query='сыворотка для упругости кожи' items=['3484987706']
+2026-03-12 19:47:33.644 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:47:33.645 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:47:33.648 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 10s (attempt 1/5)
+2026-03-12 19:47:43.924 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99745
+2026-03-12 19:47:43.924 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:47:43.927 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 20s (attempt 2/5)
+2026-03-12 19:48:04.101 | DEBUG    | services.ozon_api:67 | v2 raw response length: 99717
+2026-03-12 19:48:04.102 | WARNING  | services.ozon_api:70 | Got HTML response (antibot), waiting for redirect back to /app/
+2026-03-12 19:48:04.106 | WARNING  | services.ozon_api:60 | Rate limit hit, retrying in 30s (attempt 3/5)

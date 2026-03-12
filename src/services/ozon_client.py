@@ -9,7 +9,7 @@ from services.ozon_api import navigate_to_search_validator, create_search_task, 
 
 
 class OzonSearchClient:
-    def __init__(self, company_id: str, cookies_path: Path, headless: bool = True, proxy_path: Path | None = None) -> None:
+    def __init__(self, company_id: str, cookies_path: Path, headless: bool = False, proxy_path: Path | None = None) -> None:
         self._company_id = company_id
         self._cookies_path = cookies_path
         self._headless = headless
