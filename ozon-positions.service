@@ -1,0 +1,10 @@
+[Unit]
+Description=Ozon positions parser
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/ozon-tools
+ExecStart=xvfb-run --server-args="-screen 0 1920x1080x24" /root/.local/bin/uv run src/main.py
+StandardOutput=journal
+StandardError=journal
