@@ -1,5 +1,6 @@
 import asyncio
 from collections import defaultdict
+from pathlib import Path
 
 from loguru import logger
 
@@ -12,12 +13,28 @@ from services.sheets_client import SheetsClient
 from services.positions_sheet import read_search_tasks, insert_results_column
 
 
-async def main() -> None:
-    setup_logger()
-    logger.info("=== Starting position check ===")
+def get_sheets() -> list[tuple[str, Path, str]]:
+    """Возвращает список (название, cookies_path, spreadsheet_id) для каждой таблицы в sheets/."""
+    result = []
+    if not settings.sheets_dir.exists():
+        return result
+    for sheet_dir in sorted(settings.sheets_dir.iterdir()):
+        if not sheet_dir.is_dir():
+            continue
+        spread_id_file = sheet_dir / "spread_id.txt"
+        cookies_file = sheet_dir / "cookies.json"
+        if not spread_id_file.exists() or not cookies_file.exists():
+            logger.warning(f"Skipping '{sheet_dir.name}': missing spread_id.txt or cookies.json")
+            continue
+        spread_id = spread_id_file.read_text().strip()
+        result.append((sheet_dir.name, cookies_file, spread_id))
+    return result
 
-    logger.info("Connecting to Google Sheets")
-    sheets = SheetsClient(settings.google_credentials_path, settings.spreadsheet_id)
+
+async def process_sheet(name: str, cookies_path: Path, spreadsheet_id: str) -> None:
+    logger.info(f"=== Processing sheet '{name}' ===")
+
+    sheets = SheetsClient(settings.google_credentials_path, spreadsheet_id)
     ws = sheets.get_worksheet("Позиции")
 
     tasks = read_search_tasks(ws)
@@ -31,7 +48,7 @@ async def main() -> None:
 
     async with OzonSearchClient(
         company_id=settings.company_id,
-        cookies_path=settings.cookies_path,
+        cookies_path=cookies_path,
         proxy_path=settings.proxy_path,
     ) as client:
         for i, (query, item_ids) in enumerate(query_to_items.items()):
@@ -49,7 +66,23 @@ async def main() -> None:
         results.append(SearchResult(task=task, position=pos))
 
     insert_results_column(ws, results)
-    logger.info("=== Done ===")
+    logger.info(f"=== Done sheet '{name}' ===")
+
+
+async def main() -> None:
+    setup_logger()
+    logger.info("=== Starting position check ===")
+
+    sheets = get_sheets()
+    if not sheets:
+        logger.error(f"No sheets found in '{settings.sheets_dir}'")
+        return
+
+    for name, cookies_path, spreadsheet_id in sheets:
+        try:
+            await process_sheet(name, cookies_path, spreadsheet_id)
+        except Exception as e:
+            logger.error(f"Failed to process sheet '{name}': {e}")
 
 
 if __name__ == "__main__":

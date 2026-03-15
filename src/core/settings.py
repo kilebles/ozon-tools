@@ -5,10 +5,10 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     company_id: str = "681930"
-    cookies_path: Path = Path("cookies.json")
     proxy_path: Path = Path("proxy.txt")
     google_credentials_path: Path = Path("credentials.json")
-    spreadsheet_id: str = ""
+    sheets_dir: Path = Path("sheets")
+    bot_token: str = ""
 
     model_config = {"env_file": ".env"}
 
