@@ -46,26 +46,41 @@ async def _run(cmd: list[str]) -> str:
 
 
 async def _get_status_text() -> str:
-    # Активен ли сервис прямо сейчас
+    # Статус сервиса (для oneshot: inactive = завершился нормально, active = выполняется сейчас)
     active = await _run(["systemctl", "is-active", "ozon-positions.service"])
     is_running = active == "active"
 
-    # Время следующего запуска из таймера
-    timer_output = await _run([
-        "systemctl", "show", "ozon-positions.timer",
-        "--property=NextElapseUSecRealtime",
+    # Время последнего запуска
+    last_output = await _run([
+        "systemctl", "show", "ozon-positions.service",
+        "--property=ExecMainStartTimestamp",
     ])
+    last_run_str = ""
+    if "=" in last_output:
+        val = last_output.split("=", 1)[1].strip()
+        if val and val != "0":
+            try:
+                last_dt = datetime.strptime(val[:19], "%a %Y-%m-%d %H:%M:%S")
+                last_run_str = last_dt.strftime("%d.%m %H:%M")
+            except Exception:
+                last_run_str = val
+
+    # Время следующего запуска из таймера
+    timer_output = await _run(["systemctl", "list-timers", "ozon-positions.timer", "--no-pager"])
     next_run_str = ""
-    if "=" in timer_output:
-        val = timer_output.split("=", 1)[1].strip()
-        try:
-            ts = int(val) / 1_000_000
-            next_dt = datetime.fromtimestamp(ts)
-            diff = next_dt - datetime.now()
-            mins = int(diff.total_seconds() // 60)
-            next_run_str = f"{next_dt.strftime('%d.%m %H:%M')} (через {mins} мин)"
-        except Exception:
-            next_run_str = val
+    for line in timer_output.splitlines():
+        if "ozon-positions" in line:
+            parts = line.split()
+            # Формат: NEXT_DATE NEXT_TIME LEFT LAST_DATE LAST_TIME PASSED UNIT ACTIVATES
+            try:
+                next_dt = datetime.strptime(f"{parts[0]} {parts[1]}", "%a %Y-%m-%d %H:%M:%S")
+                diff = next_dt - datetime.now()
+                mins = int(diff.total_seconds() // 60)
+                next_run_str = f"{next_dt.strftime('%d.%m %H:%M')} (через {mins} мин)"
+            except Exception:
+                # fallback: взять как есть первые два поля
+                next_run_str = f"{parts[0]} {parts[1]}" if len(parts) >= 2 else ""
+            break
 
     # Список таблиц с количеством запросов
     sheets_info = []
@@ -80,11 +95,12 @@ async def _get_status_text() -> str:
             sheets_info.append(f"- {sheet_dir.name} [{status}]")
 
     lines = [
-        f"Парсер: {'работает' if is_running else 'не запущен'}",
-        f"Следующий запуск: {next_run_str}" if next_run_str else "Следующий запуск: неизвестно",
-        "",
-        "Таблицы:" if sheets_info else "Таблицы: нет",
-    ] + sheets_info
+        f"Парсер: {'выполняется' if is_running else 'ожидает'}",
+    ]
+    if last_run_str:
+        lines.append(f"Последний запуск: {last_run_str}")
+    lines.append(f"Следующий запуск: {next_run_str}" if next_run_str else "Следующий запуск: неизвестно")
+    lines += ["", "Таблицы:" if sheets_info else "Таблицы: нет"] + sheets_info
 
     return "\n".join(lines)
 
