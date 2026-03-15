@@ -1,5 +1,7 @@
+import asyncio
 import json
 import shutil
+from datetime import datetime
 from pathlib import Path
 
 from aiogram import Router, F
@@ -35,9 +37,67 @@ def sheets_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 
+async def _run(cmd: list[str]) -> str:
+    proc = await asyncio.create_subprocess_exec(
+        *cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
+    )
+    stdout, _ = await proc.communicate()
+    return stdout.decode().strip()
+
+
+async def _get_status_text() -> str:
+    # Активен ли сервис прямо сейчас
+    active = await _run(["systemctl", "is-active", "ozon-positions.service"])
+    is_running = active == "active"
+
+    # Время следующего запуска из таймера
+    timer_output = await _run([
+        "systemctl", "show", "ozon-positions.timer",
+        "--property=NextElapseUSecRealtime",
+    ])
+    next_run_str = ""
+    if "=" in timer_output:
+        val = timer_output.split("=", 1)[1].strip()
+        try:
+            ts = int(val) / 1_000_000
+            next_dt = datetime.fromtimestamp(ts)
+            diff = next_dt - datetime.now()
+            mins = int(diff.total_seconds() // 60)
+            next_run_str = f"{next_dt.strftime('%d.%m %H:%M')} (через {mins} мин)"
+        except Exception:
+            next_run_str = val
+
+    # Список таблиц с количеством запросов
+    sheets_info = []
+    if SHEETS_DIR.exists():
+        for sheet_dir in sorted(SHEETS_DIR.iterdir()):
+            if not sheet_dir.is_dir():
+                continue
+            cookies_ok = (sheet_dir / "cookies.json").exists()
+            spread_ok = (sheet_dir / "spread_id.txt").exists()
+            company_ok = (sheet_dir / "company_id.txt").exists()
+            status = "OK" if (cookies_ok and spread_ok and company_ok) else "неполная конфигурация"
+            sheets_info.append(f"- {sheet_dir.name} [{status}]")
+
+    lines = [
+        f"Парсер: {'работает' if is_running else 'не запущен'}",
+        f"Следующий запуск: {next_run_str}" if next_run_str else "Следующий запуск: неизвестно",
+        "",
+        "Таблицы:" if sheets_info else "Таблицы: нет",
+    ] + sheets_info
+
+    return "\n".join(lines)
+
+
 @router.message(Command("start"))
 async def cmd_start(message: Message) -> None:
     await message.answer("Воспользуйтесь командами из меню")
+
+
+@router.message(Command("status"))
+async def cmd_status(message: Message) -> None:
+    text = await _get_status_text()
+    await message.answer(text)
 
 
 @router.message(Command("sheets"))
