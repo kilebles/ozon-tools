@@ -60,7 +60,9 @@ async def _get_status_text() -> str:
         val = last_output.split("=", 1)[1].strip()
         if val and val != "0":
             try:
-                last_dt = datetime.strptime(val[:19], "%a %Y-%m-%d %H:%M:%S")
+                # Формат: "Sun 2026-03-15 18:48:56 MSK"
+                parts = val.split()
+                last_dt = datetime.strptime(f"{parts[1]} {parts[2]}", "%Y-%m-%d %H:%M:%S")
                 last_run_str = last_dt.strftime("%d.%m %H:%M")
             except Exception:
                 last_run_str = val
@@ -71,15 +73,14 @@ async def _get_status_text() -> str:
     for line in timer_output.splitlines():
         if "ozon-positions" in line:
             parts = line.split()
-            # Формат: NEXT_DATE NEXT_TIME LEFT LAST_DATE LAST_TIME PASSED UNIT ACTIVATES
+            # Формат: "Sun 2026-03-15 19:48:56 MSK 5min ..."
             try:
-                next_dt = datetime.strptime(f"{parts[0]} {parts[1]}", "%a %Y-%m-%d %H:%M:%S")
+                next_dt = datetime.strptime(f"{parts[1]} {parts[2]}", "%Y-%m-%d %H:%M:%S")
                 diff = next_dt - datetime.now()
                 mins = int(diff.total_seconds() // 60)
                 next_run_str = f"{next_dt.strftime('%d.%m %H:%M')} (через {mins} мин)"
             except Exception:
-                # fallback: взять как есть первые два поля
-                next_run_str = f"{parts[0]} {parts[1]}" if len(parts) >= 2 else ""
+                next_run_str = f"{parts[1]} {parts[2]}" if len(parts) >= 3 else ""
             break
 
     # Список таблиц с количеством запросов
