@@ -1,6 +1,7 @@
 import asyncio
 import json
 import shutil
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -12,6 +13,8 @@ from aiogram.types import (
     Message, CallbackQuery,
     InlineKeyboardMarkup, InlineKeyboardButton,
 )
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
 router = Router()
 
@@ -83,17 +86,28 @@ async def _get_status_text() -> str:
                 next_run_str = f"{parts[1]} {parts[2]}" if len(parts) >= 3 else ""
             break
 
-    # Список таблиц с количеством запросов
+    # Список таблиц
+    from services.sheets_client import SheetsClient
+    from core.settings import settings
+
     sheets_info = []
     if SHEETS_DIR.exists():
         for sheet_dir in sorted(SHEETS_DIR.iterdir()):
             if not sheet_dir.is_dir():
                 continue
+            spread_id_file = sheet_dir / "spread_id.txt"
             cookies_ok = (sheet_dir / "cookies.json").exists()
-            spread_ok = (sheet_dir / "spread_id.txt").exists()
+            spread_ok = spread_id_file.exists()
             company_ok = (sheet_dir / "company_id.txt").exists()
-            status = "OK" if (cookies_ok and spread_ok and company_ok) else "неполная конфигурация"
-            sheets_info.append(f"- {sheet_dir.name} [{status}]")
+            if cookies_ok and spread_ok and company_ok:
+                try:
+                    client = SheetsClient(settings.google_credentials_path, spread_id_file.read_text().strip())
+                    gs_title = client._spreadsheet.title
+                    sheets_info.append(f"- {sheet_dir.name} — {gs_title}")
+                except Exception:
+                    sheets_info.append(f"- {sheet_dir.name} [ошибка подключения]")
+            else:
+                sheets_info.append(f"- {sheet_dir.name} [неполная конфигурация]")
 
     lines = [
         f"Парсер: {'выполняется' if is_running else 'ожидает'}",
