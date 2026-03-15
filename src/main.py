@@ -13,8 +13,8 @@ from services.sheets_client import SheetsClient
 from services.positions_sheet import read_search_tasks, insert_results_column
 
 
-def get_sheets() -> list[tuple[str, Path, str]]:
-    """Возвращает список (название, cookies_path, spreadsheet_id) для каждой таблицы в sheets/."""
+def get_sheets() -> list[tuple[str, Path, str, str]]:
+    """Возвращает список (название, cookies_path, spreadsheet_id, company_id) для каждой таблицы в sheets/."""
     result = []
     if not settings.sheets_dir.exists():
         return result
@@ -23,15 +23,17 @@ def get_sheets() -> list[tuple[str, Path, str]]:
             continue
         spread_id_file = sheet_dir / "spread_id.txt"
         cookies_file = sheet_dir / "cookies.json"
-        if not spread_id_file.exists() or not cookies_file.exists():
-            logger.warning(f"Skipping '{sheet_dir.name}': missing spread_id.txt or cookies.json")
+        company_id_file = sheet_dir / "company_id.txt"
+        if not spread_id_file.exists() or not cookies_file.exists() or not company_id_file.exists():
+            logger.warning(f"Skipping '{sheet_dir.name}': missing spread_id.txt, cookies.json or company_id.txt")
             continue
         spread_id = spread_id_file.read_text().strip()
-        result.append((sheet_dir.name, cookies_file, spread_id))
+        company_id = company_id_file.read_text().strip()
+        result.append((sheet_dir.name, cookies_file, spread_id, company_id))
     return result
 
 
-async def process_sheet(name: str, cookies_path: Path, spreadsheet_id: str) -> None:
+async def process_sheet(name: str, cookies_path: Path, spreadsheet_id: str, company_id: str) -> None:
     logger.info(f"=== Processing sheet '{name}' ===")
 
     sheets = SheetsClient(settings.google_credentials_path, spreadsheet_id)
@@ -47,7 +49,7 @@ async def process_sheet(name: str, cookies_path: Path, spreadsheet_id: str) -> N
     positions: dict[str, dict[str, int]] = {}
 
     async with OzonSearchClient(
-        company_id=settings.company_id,
+        company_id=company_id,
         cookies_path=cookies_path,
         proxy_path=settings.proxy_path,
     ) as client:
@@ -78,9 +80,9 @@ async def main() -> None:
         logger.error(f"No sheets found in '{settings.sheets_dir}'")
         return
 
-    for name, cookies_path, spreadsheet_id in sheets:
+    for name, cookies_path, spreadsheet_id, company_id in sheets:
         try:
-            await process_sheet(name, cookies_path, spreadsheet_id)
+            await process_sheet(name, cookies_path, spreadsheet_id, company_id)
         except Exception as e:
             logger.error(f"Failed to process sheet '{name}': {e}")
 

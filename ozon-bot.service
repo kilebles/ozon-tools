@@ -1,0 +1,13 @@
+[Unit]
+Description=Ozon Telegram bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ozon-tools
+ExecStart=/root/.local/bin/uv run bot/main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

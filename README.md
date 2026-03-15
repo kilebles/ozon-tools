@@ -39,6 +39,14 @@ systemctl enable --now ozon-positions.timer
 systemctl start ozon-positions.service
 ```
 
+## Запуск бота
+
+```bash
+cp /opt/ozon-tools/ozon-bot.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable --now ozon-bot.service
+```
+
 ## Управление
 
 ```bash
@@ -59,4 +67,10 @@ systemctl stop ozon-positions.timer
 
 # Отключить автозапуск
 systemctl disable ozon-positions.timer
+
+# Логи бота
+journalctl -u ozon-bot.service -f
+
+# Перезапустить бота
+systemctl restart ozon-bot.service
 ```

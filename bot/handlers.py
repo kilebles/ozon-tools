@@ -19,6 +19,7 @@ SHEETS_DIR = Path("sheets")
 class AddSheet(StatesGroup):
     name = State()
     spread_id = State()
+    company_id = State()
     cookies = State()
 
 
@@ -53,8 +54,7 @@ async def cb_add_sheet(callback: CallbackQuery, state: FSMContext) -> None:
 
 @router.message(AddSheet.name)
 async def fsm_name(message: Message, state: FSMContext) -> None:
-    name = message.text.strip()
-    await state.update_data(name=name)
+    await state.update_data(name=message.text.strip())
     await state.set_state(AddSheet.spread_id)
     await message.answer("Введите ID таблицы")
 
@@ -62,6 +62,13 @@ async def fsm_name(message: Message, state: FSMContext) -> None:
 @router.message(AddSheet.spread_id)
 async def fsm_spread_id(message: Message, state: FSMContext) -> None:
     await state.update_data(spread_id=message.text.strip())
+    await state.set_state(AddSheet.company_id)
+    await message.answer("Введите ID компании")
+
+
+@router.message(AddSheet.company_id)
+async def fsm_company_id(message: Message, state: FSMContext) -> None:
+    await state.update_data(company_id=message.text.strip())
     await state.set_state(AddSheet.cookies)
     await message.answer("Отправьте файл cookies.json")
 
@@ -70,12 +77,12 @@ async def fsm_spread_id(message: Message, state: FSMContext) -> None:
 async def fsm_cookies(message: Message, state: FSMContext) -> None:
     data = await state.get_data()
     name = data["name"]
-    spread_id = data["spread_id"]
 
     sheet_dir = SHEETS_DIR / name
     sheet_dir.mkdir(parents=True, exist_ok=True)
 
-    (sheet_dir / "spread_id.txt").write_text(spread_id)
+    (sheet_dir / "spread_id.txt").write_text(data["spread_id"])
+    (sheet_dir / "company_id.txt").write_text(data["company_id"])
 
     file = await message.bot.get_file(message.document.file_id)
     content = await message.bot.download_file(file.file_path)
