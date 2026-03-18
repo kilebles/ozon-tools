@@ -161,7 +161,7 @@ async def fsm_spread_id(message: Message, state: FSMContext) -> None:
 async def fsm_company_id(message: Message, state: FSMContext) -> None:
     await state.update_data(company_id=message.text.strip())
     await state.set_state(AddSheet.cookies)
-    await message.answer("Отправьте файл cookies.json")
+    await message.answer("Отправьте файл cookies.json или вставьте JSON текстом (можно несколькими сообщениями)")
 
 
 @router.message(AddSheet.cookies, F.document)
@@ -184,9 +184,34 @@ async def fsm_cookies(message: Message, state: FSMContext) -> None:
     await message.answer(f"Таблица '{name}' добавлена", reply_markup=sheets_keyboard())
 
 
+@router.message(AddSheet.cookies, F.text)
+async def fsm_cookies_text(message: Message, state: FSMContext) -> None:
+    data = await state.get_data()
+    accumulated = data.get("cookies_text", "") + (message.text or "")
+    await state.update_data(cookies_text=accumulated)
+
+    try:
+        cookies_data = json.loads(accumulated)
+    except json.JSONDecodeError:
+        # Ещё не полный JSON — ждём следующее сообщение
+        await message.answer("Получил часть JSON, жду продолжения...")
+        return
+
+    name = data["name"]
+    sheet_dir = SHEETS_DIR / name
+    sheet_dir.mkdir(parents=True, exist_ok=True)
+
+    (sheet_dir / "spread_id.txt").write_text(data["spread_id"])
+    (sheet_dir / "company_id.txt").write_text(data["company_id"])
+    (sheet_dir / "cookies.json").write_text(json.dumps(cookies_data, ensure_ascii=False, indent=2))
+
+    await state.clear()
+    await message.answer(f"Таблица '{name}' добавлена", reply_markup=sheets_keyboard())
+
+
 @router.message(AddSheet.cookies)
 async def fsm_cookies_wrong(message: Message) -> None:
-    await message.answer("Отправьте именно файл cookies.json")
+    await message.answer("Отправьте файл cookies.json или вставьте JSON текстом")
 
 
 @router.callback_query(F.data.startswith("delete:"))
