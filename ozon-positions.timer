@@ -2,8 +2,7 @@
 Description=Run Ozon positions parser every hour
 
 [Timer]
-OnBootSec=1min
-OnUnitActiveSec=1h
+OnCalendar=hourly
 Persistent=true
 
 [Install]
