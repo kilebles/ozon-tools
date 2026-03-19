@@ -9,3 +9,5 @@ ExecStart=xvfb-run --server-args="-screen 0 1920x1080x24" /root/.local/bin/uv ru
 StandardOutput=journal
 StandardError=journal
 TimeoutStartSec=30min
+TimeoutSec=30min
+KillMode=mixed
