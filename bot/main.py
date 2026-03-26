@@ -13,7 +13,6 @@ from commands import set_bot_commands
 from handlers import router
 from core.settings import settings
 
-
 async def main() -> None:
     bot = Bot(token=settings.bot_token)
     dp = Dispatcher(storage=MemoryStorage())

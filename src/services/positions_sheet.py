@@ -6,14 +6,21 @@ from loguru import logger
 from models.search import SearchResult, SearchTask
 
 
-def read_search_tasks(ws: gspread.Worksheet) -> list[SearchTask]:
-    logger.debug(f"Reading search tasks from sheet '{ws.title}'")
+def read_search_tasks(ws: gspread.Worksheet, row_range: tuple[int, int] | None = None) -> list[SearchTask]:
+    """Читает задачи из листа. row_range=(start, end) — 1-based включительно, None = весь лист."""
+    logger.debug(f"Reading search tasks from sheet '{ws.title}' row_range={row_range}")
     rows = ws.get_all_values()
     tasks: list[SearchTask] = []
     current_item_id: str = ""
 
+    start_row = row_range[0] if row_range else 1
+    end_row = row_range[1] if row_range else len(rows)
+
     for i, row in enumerate(rows):
         row_num = i + 1
+        if row_num < start_row or row_num > end_row:
+            continue
+
         col_a = row[0].strip() if row else ""
         col_c = row[2].strip() if len(row) > 2 else ""
 

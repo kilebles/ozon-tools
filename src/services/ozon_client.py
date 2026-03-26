@@ -39,3 +39,4 @@ class OzonSearchClient:
         except OzonApiError as e:
             logger.error(f"API error for query={query!r}: {e} | raw={e.raw[:200] if e.raw else ''}")
             raise
+
